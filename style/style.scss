@@ -1,0 +1,50 @@
+p, span, a {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Exo', sans-serif;
+}
+
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+.header{
+  &__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:16px 2% 16px 7%;
+    .logo{
+      &-img{
+        max-width: 100%;
+      }
+    }
+
+    .menu{
+      width: 44%;
+      display: flex;
+      justify-content: space-between;
+      &__link{
+        color: #0B0B0B;
+        font-size: 16px;
+        line-height: 19px;
+
+
+        &:hover{
+          color: #1B689B;
+        }
+      }
+    }
+    .change-lang{
+      .lang{
+        text-transform: uppercase;
+        &:hover{
+          color: #1B689B;
+        }
+      }
+    }
+  }
+}
