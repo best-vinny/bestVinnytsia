@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>BEST Vinnytsia</title>
     <link href="https://fonts.googleapis.com/css?family=Exo:400,500|Roboto:400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="icofont/icofont.min.css">
     <link rel="stylesheet" href="style/zero.css">
     <link rel="stylesheet" href="style/style.css">
 
@@ -13,16 +14,30 @@
     <div class="container">
         <div class="header__top">
             <div class="logo"><a href="#"><img class="logo-img" src="img/best-logo-bw.png" alt="BEST logo"></a></div>
-            <nav class="menu">
-                <a class="menu__link" href="#">Home</a>
-                <a class="menu__link" href="#">About us</a>
-                <a class="menu__link" href="#">Projects</a>
-                <a class="menu__link" href="#">Board</a>
-                <a class="menu__link" href="#">Partners</a>
-                <a class="menu__link" href="#">Contacts</a>
-            </nav>
+                <ul class="menu">
+                    <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">About us</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Projects</a>
+                        <ul class="dd-menu">
+                            <li class="dd-menu__bridge"></li>
+                            <li class="dd-menu__item"><a class="dd-menu__link" href="#">EBEC</a></li>
+                            <li class="dd-menu__item"><a class="dd-menu__link" href="#">JOB FAIR</a></li>
+                            <li class="dd-menu__item"><a class="dd-menu__link" href="#">IT-REVOLUTION</a></li>
+                            <li class="dd-menu__item"><a class="dd-menu__link" href="#">BEST COURSES</a></li>
+                            <li class="dd-menu__item"><a class="dd-menu__link" href="#">BEST TRAINING WEEK </a></li>
+                        </ul>
+                    </li>
+                    <li class="menu__item"><a class="menu__link" href="#">Board</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Partners</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#">Contacts</a></li>
+                </ul>
             <div class="change-lang">
                 <p class="lang">eng</p>
+                <ul class="dd-menu">
+                    <li class="dd-menu__bridge"></li>
+                    <!--<li class="dd-menu__item"><a href="#" class="dd-menu__link">ENGLISH</a></li>-->
+                    <li class="dd-menu__item"><a href="#" class="dd-menu__link">УКРАЇНСЬКА</a></li>
+                </ul>
             </div>
         </div>
     </div>

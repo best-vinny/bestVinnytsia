@@ -2,49 +2,151 @@ p, span, a {
   font-family: 'Roboto', sans-serif;
 }
 
-h1,h2,h3,h4,h5,h6{
+h1, h2, h3, h4, h5, h6 {
   font-family: 'Exo', sans-serif;
 }
 
-.container{
+$hover-text-color: #1B689B;
+
+.container {
   max-width: 1440px;
   margin: 0 auto;
 }
 
-.header{
-  &__top{
+
+.header {
+  &__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding:16px 2% 16px 7%;
-    .logo{
-      &-img{
+    padding: 16px 4% 16px 7%;
+
+    .logo {
+      &-img {
         max-width: 100%;
       }
     }
 
-    .menu{
+    .dd-menu{
+      display: none;
+      position: absolute;
+      top: 30px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 150px;
+
+
+      &__bridge{
+        height: 29px;
+        background: rgba(0,0,0,0);
+      }
+
+      &__item{
+        text-align: center;
+        padding: 11px 0;
+        &:hover {
+          background-color: rgba(255, 255, 255, 0.5);
+          cursor: pointer;
+
+          .dd-menu__link{
+            color: $hover-text-color;
+          }
+        }
+      }
+
+      &__link{
+        font-family: 'Roboto', sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 16px;
+        line-height: 19px;
+        color:#000;
+      }
+    }
+
+    .menu {
       width: 44%;
       display: flex;
       justify-content: space-between;
-      &__link{
-        color: #0B0B0B;
-        font-size: 16px;
-        line-height: 19px;
+      align-items: center;
+
+      &__item {
+        text-align: center;
+
+        .menu__link {
+          color: #0B0B0B;
+          font-size: 16px;
+          line-height: 19px;
+
+          &:hover {
+            color: $hover-text-color;
+          }
+        }
+        
+        &:nth-child(3){
+          position: relative;
 
 
-        &:hover{
-          color: #1B689B;
+          &:after{
+            content: "\ea6a";
+            font-family: "IcoFont" ;
+            font-size: 20px;
+            cursor: pointer;
+
+            //right: -25px;
+            //top:calc(50% - 10px);
+          }
+
+          &:hover{
+            padding: 10px 0;
+            .dd-menu{
+              display: block;
+            }
+
+            &:after{
+              color: $hover-text-color;
+              content: '\ea67';
+            }
+
+          }
         }
       }
     }
-    .change-lang{
-      .lang{
-        text-transform: uppercase;
+
+
+      .change-lang {
+        position: relative;
+
         &:hover{
-          color: #1B689B;
+          padding: 10px 0;
+          .dd-menu{
+            display: block;
+          }
+
+        .lang:before{
+            color: $hover-text-color;
+            content: '\ea67';
+          }
+        }
+
+
+        .lang {
+          text-transform: uppercase;
+
+          &:before {
+            content: "\ea6a";
+            font-family: "IcoFont";
+            font-size: 20px;
+            cursor: pointer;
+          }
+
+          &:hover {
+            color: $hover-text-color;
+            cursor: pointer;
+
+
+          }
         }
       }
     }
   }
-}
