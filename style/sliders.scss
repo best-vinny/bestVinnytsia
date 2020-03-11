@@ -1,0 +1,74 @@
+.slick-slider{
+
+}
+.slick-list{
+  overflow: hidden;
+}
+.slick-track{
+  display: flex;
+}
+
+.slick-slide{
+  overflow: hidden;
+  .slick-active{}
+  .slick-current{}
+  .slick-center{}
+}
+
+.slick-arrow{
+  position: absolute;
+  top:50%;
+  z-index: 10;
+  color: rgba(0, 0, 0, 0.25);
+  font-family: "IcoFont";
+}
+
+
+
+.slick-prev{
+  left:0;
+  font-size: 0;
+
+  &:after{
+    content: '\eab5';
+    font-family: "IcoFont";
+    display: block;
+    position: absolute;
+    font-size: 60px;
+    transform: translateY(-50%);
+  }
+
+}
+.slick-next{
+  right:0;
+  font-size: 0;
+
+  &:after{
+    content: '\eab8';
+    display: block;
+    position: absolute;
+    font-size: 60px;
+    transform: translateY(-50%);
+  }
+}
+
+.slick-disabled{
+  &:after{
+    font-size: 0;
+  }
+}
+
+.slick-dots{
+  li{}
+  button{}
+}
+
+.two-slide-slider{
+  position: relative;
+  .slick-arrow{
+    .slick-prev{}
+    .slick-next{}
+    .slick-disabled{}
+  }
+
+}

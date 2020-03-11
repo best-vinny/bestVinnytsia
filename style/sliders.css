@@ -1,0 +1,45 @@
+.slick-list {
+  overflow: hidden; }
+
+.slick-track {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+.slick-arrow {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+  color: rgba(0, 0, 0, 0.25);
+  font-family: "IcoFont"; }
+
+.slick-prev {
+  left: 0;
+  font-size: 0; }
+  .slick-prev:after {
+    content: '\eab5';
+    font-family: "IcoFont";
+    display: block;
+    position: absolute;
+    font-size: 60px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+
+.slick-next {
+  right: 0;
+  font-size: 0; }
+  .slick-next:after {
+    content: '\eab8';
+    display: block;
+    position: absolute;
+    font-size: 60px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%); }
+
+.slick-disabled:after {
+  font-size: 0; }
+
+.two-slide-slider {
+  position: relative; }
