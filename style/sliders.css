@@ -6,6 +6,9 @@
   display: -ms-flexbox;
   display: flex; }
 
+.slick-slide {
+  overflow: hidden; }
+
 .slick-arrow {
   position: absolute;
   top: 50%;
@@ -14,7 +17,7 @@
   font-family: "IcoFont"; }
 
 .slick-prev {
-  left: 0;
+  left: -50px;
   font-size: 0; }
   .slick-prev:after {
     content: '\eab5';
@@ -27,7 +30,7 @@
     transform: translateY(-50%); }
 
 .slick-next {
-  right: 0;
+  right: 15px;
   font-size: 0; }
   .slick-next:after {
     content: '\eab8';
