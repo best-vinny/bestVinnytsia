@@ -433,19 +433,21 @@ section{
   }
 
   .our-power{
+    padding-bottom: 112px;
     .power-slider{
       padding-top: 50px;
-      max-width: 1170px;
       width: 80%;
       margin: 0 auto;
 
       .power-slide{
         display: flex;
         align-items: center;
+        justify-content: center;
+        padding-bottom: 50px;
         &__photo{
           max-width: 550px;
           width: 47%;
-          margin-right: 4%;
+          margin-right: 6%;
           position: relative;
 
           .img-overlay{
@@ -454,7 +456,7 @@ section{
             top:0;
             bottom: 0;
             right:0;
-            background: rgba(255, 166, 21, 0.18);
+
 
             &:after{
               content: '';
@@ -462,14 +464,13 @@ section{
               height: 100%;
               position: absolute;
               display: block;
-              background: rgba(49, 153, 219, 0.6);
+
               z-index: -1;
               right: -18px;
               bottom: -16px;
             }
           }
           img{
-
             max-width: 100%;
           }
         }
@@ -491,8 +492,9 @@ section{
             &:before{
               content:'' ;
               width: 100%;
+              //min-width: 290px;
               height: 13px;
-              background: $main-orange;
+              background: inherit;
               position: absolute;
               bottom: 30px;
               left:0;
@@ -500,22 +502,118 @@ section{
             &:after{
               content: '';
               display: block;
-              height:89px ;
-              width: 67px;
-              background-image: url('../img/power-icon1.svg');
               background-size: cover;
               background-repeat: no-repeat;
               position: absolute;
-              right: -90px;
-              top: 0;
+              left: calc( 100% + 24px);
+              bottom: 30px ;
             }
+
           }
           .power-slide__text{
             font-size: 29px;
             line-height: 34px;
           }
         }
+
+        &:nth-child(1){
+          .img-overlay{
+            background: rgba(255, 166, 21, 0.18);
+            &:after{
+              background: rgba(49, 153, 219, 0.6);
+            }
+          }
+          .power-slide__title{
+            color: $main-orange;
+            &:before{
+              background: $main-orange;
+            }
+            &:after{
+              background-image: url('../img/power-icon1.svg');
+              width: 67px;
+              height: 89px;
+
+            }
+          }
+        }
+        &:nth-child(2){
+          .img-overlay{
+            background: rgba(49, 153, 219, 0.18);
+            &:after{
+              background: rgba(147, 226, 55, 0.6);
+            }
+          }
+          .power-slide__title {
+            color: $main-blue;
+            &:before{
+              background:$main-blue;
+            }
+            &:after{
+              background-image: url('../img/power-icon2.svg');
+              width: 103px;
+              height: 89px;
+            }
+          }
+        }
+        &:nth-child(3){
+          .img-overlay{
+            background: rgba(147, 226, 55, 0.18);
+            &:after{
+              background: rgba(225, 86, 227, 0.6);
+            }
+          }
+          .power-slide__title {
+            color: $main-green;
+            &:before{
+              background:$main-green;
+            }
+            &:after{
+              background-image: url('../img/power-icon3.svg');
+              width: 97px;
+              height: 89px;
+            }
+          }
+        }
+        &:nth-child(4){
+          .img-overlay{
+            background: rgba(225, 86, 227, 0.18);
+            &:after{
+              background: rgba(232, 55, 55, 0.6);
+            }
+          }
+          .power-slide__title {
+            color: $main-pink;
+            &:before{
+              background:$main-pink;
+            }
+            &:after{
+              background-image: url('../img/power-icon4.svg');
+              width: 89px;
+              height: 89px;
+            }
+          }
+        }
+        &:nth-child(5){
+          .img-overlay{
+            background: rgba(232, 55, 55, 0.18);
+            &:after{
+              background: rgba(255, 166, 21, 0.6);
+            }
+          }
+          .power-slide__title {
+            color: $main-red;
+            &:before{
+              background:$main-red;
+            }
+            &:after{
+              background-image: url('../img/power-icon5.svg');
+              width: 101px;
+              height: 89px;
+            }
+          }
+        }
       }
+
     }
   }
 }

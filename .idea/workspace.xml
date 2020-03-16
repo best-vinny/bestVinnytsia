@@ -3,6 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="741456da-e3a6-495b-8dc1-e535edfd617a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/flex-icon.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/frendship-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/power-icon2.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/fun-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/power-icon3.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/improve-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/power-icon4.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/learn-icon.svg" beforeDir="false" afterPath="$PROJECT_DIR$/img/power-icon5.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/sliders.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/sliders.css" afterDir="false" />
@@ -39,7 +44,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../doctors" />
+    <property name="last_opened_file_path" value="W:/domains/gitvis" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
   </component>
   <component name="RecentsManager">
@@ -57,7 +62,9 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1583428240186</updated>
-      <workItem from="1583428241473" duration="64840000" />
+      <workItem from="1583428241473" duration="65531000" />
+      <workItem from="1584100795801" duration="27000" />
+      <workItem from="1584359281917" duration="7464000" />
     </task>
     <task id="LOCAL-00001" summary="header">
       <created>1583622572061</created>
@@ -81,10 +88,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="1065" y="124" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1583622571145" />
-    <state x="1224" y="271" key="FileChooserDialogImpl" timestamp="1583944711075">
+    <state x="1224" y="271" key="FileChooserDialogImpl" timestamp="1584100817015">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
-    <state x="1224" y="271" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1583944711075" />
+    <state x="1224" y="271" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1584100817015" />
     <state x="1313" y="423" key="Github.ShareDialog" timestamp="1583450062318">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

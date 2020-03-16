@@ -1,3 +1,6 @@
+.slick-slider {
+  position: relative; }
+
 .slick-list {
   overflow: hidden; }
 
@@ -44,5 +47,39 @@
 .slick-disabled:after {
   font-size: 0; }
 
-.two-slide-slider {
-  position: relative; }
+.power-slider .slick-dots {
+  position: absolute;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 21%;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  right: 0;
+  bottom: 0; }
+  .power-slider .slick-dots li {
+    width: 18%;
+    height: 8.3px;
+    background: #000;
+    opacity: 0.6;
+    cursor: pointer; }
+    .power-slider .slick-dots li:first-child {
+      background: #FFA615; }
+    .power-slider .slick-dots li:nth-child(2) {
+      background: #3199DB; }
+    .power-slider .slick-dots li:nth-child(3) {
+      background: #93E237; }
+    .power-slider .slick-dots li:nth-child(4) {
+      background: #E156E3; }
+    .power-slider .slick-dots li:last-child {
+      background: #FF0000; }
+  .power-slider .slick-dots .slick-active {
+    width: 20%;
+    height: 18px;
+    opacity: 1; }
+  .power-slider .slick-dots button {
+    font-size: 0; }

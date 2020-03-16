@@ -1,5 +1,13 @@
-.slick-slider{
+ $main-orange: #FFA615;
+$main-green: #93E237;
+$main-blue: #3199DB;
+$main-pink: #E156E3;
+$main-red: #FF0000;
 
+
+
+.slick-slider{
+  position: relative;
 }
 .slick-list{
   overflow: hidden;
@@ -24,8 +32,6 @@
   font-family: "IcoFont";
 }
 
-
-
 .slick-prev{
   left:-50px;
   font-size: 0;
@@ -40,6 +46,7 @@
   }
 
 }
+
 .slick-next{
   right:15px;
   font-size: 0;
@@ -65,11 +72,50 @@
 }
 
 .two-slide-slider{
-  position: relative;
-  .slick-arrow{
-    .slick-prev{}
-    .slick-next{}
-    .slick-disabled{}
+
+}
+
+.power-slider{
+
+  .slick-dots{
+    position: absolute;
+    display: flex;
+    width: 21%;
+    justify-content: space-between;
+    align-items: center;
+    right: 0;
+    bottom: 0;
+    li{
+      width: 18%;
+      height: 8.3px;
+      background: #000;
+      opacity: 0.6;
+      cursor: pointer;
+      
+      &:first-child{
+        background: $main-orange;
+      }
+      &:nth-child(2){
+        background: $main-blue;
+      }
+      &:nth-child(3){
+        background: $main-green;
+      }
+      &:nth-child(4){
+        background: $main-pink;
+      }
+      &:last-child{
+        background: $main-red;
+      }
+    }
+    .slick-active{
+      width: 20%;
+      height: 18px;
+      opacity: 1;
+    }
+    button{
+      font-size: 0;
+    }
   }
 
 }
