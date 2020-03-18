@@ -24,7 +24,8 @@ $('.projects-logo-slider').slick({
 });
 
 $('.project-main-photo').slick({
-
+    asNavFor: '.project-photo-nav',
+    autoplay: true,
 });
 
 
@@ -32,4 +33,5 @@ $('.project-photo-nav').slick({
     slidesToShow: 5,
     slidesToScroll:1,
     speed:1000,
+    asNavFor: '.project-main-photo',
 });
