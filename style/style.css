@@ -276,7 +276,8 @@ h1, h2, h3, h4, h5, h6, button {
   .main .section-body .section-description {
     font-size: 29px;
     line-height: 34px;
-    max-width: 375px; }
+    max-width: 375px;
+    text-align: justify; }
     .main .section-body .section-description .section-before {
       width: 50%;
       height: 8px;
@@ -284,7 +285,7 @@ h1, h2, h3, h4, h5, h6, button {
   .main .section-body .two-slide-slider {
     min-width: 0;
     width: 53vw;
-    max-width: 770px;
+    max-width: 630px;
     margin: 0; }
     .main .section-body .two-slide-slider .two-slide-slider__slide {
       text-align: center; }
@@ -613,3 +614,11 @@ h1, h2, h3, h4, h5, h6, button {
         color: #000000;
         overflow-y: scroll;
         max-height: 250px; }
+    .main .projects .current-projects-slider .current-project__content .project-photo-slider {
+      min-width: 1px;
+      width: 50%;
+      max-width: 400px; }
+      .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .overlay-little-photo {
+        max-width: 65px; }
+        .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .overlay-little-photo img {
+          max-width: 100%; }

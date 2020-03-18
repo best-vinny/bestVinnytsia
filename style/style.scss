@@ -336,6 +336,7 @@ section{
       font-size: 29px;
       line-height: 34px;
       max-width: 375px;
+      text-align: justify;
       //width: 26%;
 
       .section-before{
@@ -348,7 +349,8 @@ section{
     .two-slide-slider{
       min-width: 0;
       width: 53vw;
-      max-width: 770px;
+      //max-width: 770px;
+      max-width: 630px;
       margin: 0;
      .two-slide-slider__slide{
        text-align: center;
@@ -751,7 +753,21 @@ section{
             }
           }
           .project-photo-slider{
+            min-width: 1px;
+            width: 50%;
+            max-width: 400px;
+            .project-main-photo{
 
+            }
+            .project-photo-nav{
+              .overlay-little-photo{
+                max-width: 65px;
+
+                img{
+                  max-width: 100%;
+                }
+              }
+            }
           }
         }
       }
