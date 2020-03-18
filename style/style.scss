@@ -349,6 +349,7 @@ section{
       min-width: 0;
       width: 53vw;
       max-width: 770px;
+      margin: 0;
      .two-slide-slider__slide{
        text-align: center;
 
@@ -629,16 +630,19 @@ section{
         align-items: center;
         justify-content: space-evenly;
         align-self: stretch;
+        width: 33%;
 
         .project-logo{
           max-height: 150px ;
           opacity: 0.6;
+          cursor: pointer;
         }
 
         .project-name{
           font-weight: 600;
           font-size: 34px;
           opacity: 0;
+          text-align: center;
           &:before{
             content: '';
             display: block;
@@ -651,6 +655,7 @@ section{
       .ebec{
         .project-name{
           color: $main-orange;
+          text-transform: uppercase;
           &:before{
             background: $main-orange;
           }
@@ -689,6 +694,64 @@ section{
           color: #FFCA33;
           &:before{
             background: #FFCA33;
+          }
+        }
+      }
+    }
+    .current-projects-slider{
+      .current-project{
+        padding: 85px 85px 120px;
+        background: $main-orange;
+        &__content{
+          padding: 29px 100px 53px 133px;
+          display: flex;
+          justify-content: space-between;
+          box-shadow: inset 0 4px 24px rgba(0, 0, 0, 0.25), inset 0 4px 15px rgba(0, 0, 0, 0.25);
+          background: #fff;
+          .project-data{
+            width: 50%;
+            max-width: 520px;
+            &__top{
+              display: flex;
+              align-items: center;
+
+              .project-title{
+                font-weight: 600;
+                font-size: 54px;
+                line-height: 72px;
+
+                color:$main-orange;
+              }
+              .project-btn{
+                background: $main-orange;
+                border-radius: 31px;
+                text-transform: uppercase;
+                font-family: 'Exo', sans-serif;
+                color: #fff;
+                font-weight: 500;
+                font-size: 26px;
+                line-height: 35px;
+                padding: 0 16px;
+                margin-left: 20px;
+                transition: .5s;
+                &:hover{
+                  background: #000;
+                  transition: .5s;
+                }
+              }
+            }
+            &__text{
+              padding-top: 16px;
+              padding-top: 16px;
+              font-size: 26px;
+              line-height: 30px;
+              color: #000000;
+              overflow-y: scroll;
+              max-height: 250px;
+            }
+          }
+          .project-photo-slider{
+
           }
         }
       }

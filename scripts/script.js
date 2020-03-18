@@ -18,5 +18,8 @@ $('.projects-logo-slider').slick({
     slidesToShow: 3,
     slidesToScroll:1,
     speed:1000,
-
+    autoPlay: true,
+    autoplay: true,
+    centerMode: true,
+    focusOnSelect: true
 });
