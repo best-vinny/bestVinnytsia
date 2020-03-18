@@ -1,5 +1,6 @@
 .slick-slider {
-  position: relative; }
+  position: relative;
+  margin: 0 auto; }
 
 .slick-list {
   overflow: hidden; }
@@ -83,3 +84,12 @@
     opacity: 1; }
   .power-slider .slick-dots button {
     font-size: 0; }
+
+.projects-logo-slider .slick-slide {
+  overflow: hidden; }
+
+.projects-logo-slider .slick-current .project-logo {
+  opacity: 1 !important; }
+
+.projects-logo-slider .slick-current .project-name {
+  opacity: 1 !important; }

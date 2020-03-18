@@ -14,3 +14,9 @@ $('.power-slider').slick({
     infinite: false
 });
 
+$('.projects-logo-slider').slick({
+    slidesToShow: 3,
+    slidesToScroll:1,
+    speed:1000,
+
+});

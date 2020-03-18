@@ -8,6 +8,7 @@ $main-red: #FF0000;
 
 .slick-slider{
   position: relative;
+  margin: 0 auto;
 }
 .slick-list{
   overflow: hidden;
@@ -119,3 +120,18 @@ $main-red: #FF0000;
   }
 
 }
+
+ .projects-logo-slider{
+   .slick-slide {
+     overflow: hidden;
+
+   }
+   .slick-current{
+     .project-logo{
+       opacity:1 !important;
+     }
+     .project-name{
+       opacity: 1 !important ;
+     }
+   }
+ }
