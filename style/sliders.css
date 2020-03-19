@@ -93,3 +93,9 @@
 
 .projects-logo-slider .slick-current .project-name {
   opacity: 1 !important; }
+
+.project-photo-nav .slick-track {
+  display: block; }
+
+.project-photo-nav .slick-current .overlay-photo {
+  background: rgba(255, 166, 21, 0.63) !important; }

@@ -135,3 +135,16 @@ $main-red: #FF0000;
      }
    }
  }
+
+ .project-photo-nav{
+
+   .slick-track{
+      display: block;
+   }
+   .slick-current{
+     .overlay-photo{
+       background: rgba(255, 166, 21, 0.63) ;
+     }
+   }
+
+ }

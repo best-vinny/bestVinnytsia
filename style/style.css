@@ -558,67 +558,125 @@ h1, h2, h3, h4, h5, h6, button {
     .main .projects .projects-logo-slider .tw .project-name:before {
       background: #FFCA33; }
 
-.main .projects .current-projects-slider .current-project {
-  padding: 85px 85px 120px;
-  background: #FFA615; }
-  .main .projects .current-projects-slider .current-project__content {
-    padding: 29px 100px 53px 133px;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-    -ms-flex-pack: justify;
-    justify-content: space-between;
-    -webkit-box-shadow: inset 0 4px 24px rgba(0, 0, 0, 0.25), inset 0 4px 15px rgba(0, 0, 0, 0.25);
-    box-shadow: inset 0 4px 24px rgba(0, 0, 0, 0.25), inset 0 4px 15px rgba(0, 0, 0, 0.25);
-    background: #fff; }
-    .main .projects .current-projects-slider .current-project__content .project-data {
-      width: 50%;
-      max-width: 520px; }
-      .main .projects .current-projects-slider .current-project__content .project-data__top {
+.main .projects .current-projects-slider {
+  width: 100%;
+  padding-top: 50px; }
+  .main .projects .current-projects-slider .current-project {
+    padding: 8.5vh 85px 12vh;
+    background: #FFA615; }
+    .main .projects .current-projects-slider .current-project__content {
+      padding: 29px 100px 53px 133px;
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: end;
+      -ms-flex-align: end;
+      align-items: flex-end;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-shadow: inset 0 4px 24px rgba(0, 0, 0, 0.25), inset 0 4px 15px rgba(0, 0, 0, 0.25);
+      box-shadow: inset 0 4px 24px rgba(0, 0, 0, 0.25), inset 0 4px 15px rgba(0, 0, 0, 0.25);
+      background: #fff;
+      position: relative; }
+      .main .projects .current-projects-slider .current-project__content:before {
+        position: absolute;
+        content: '';
+        display: block;
+        top: 0;
+        left: 0;
+        width: 200px;
+        height: 236px;
+        -webkit-transform: translateY(-40%) translateX(-40%);
+        -ms-transform: translateY(-40%) translateX(-40%);
+        transform: translateY(-40%) translateX(-40%);
+        background: url("../img/project-face1.png"); }
+      .main .projects .current-projects-slider .current-project__content .project-data {
+        width: 50%;
+        max-width: 520px; }
+        .main .projects .current-projects-slider .current-project__content .project-data__top {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-align: center;
+          -ms-flex-align: center;
+          align-items: center; }
+          .main .projects .current-projects-slider .current-project__content .project-data__top .project-title {
+            font-weight: 600;
+            font-size: 54px;
+            line-height: 72px;
+            color: #FFA615; }
+          .main .projects .current-projects-slider .current-project__content .project-data__top .project-btn {
+            background: #FFA615;
+            border-radius: 31px;
+            text-transform: uppercase;
+            font-family: 'Exo', sans-serif;
+            color: #fff;
+            font-weight: 500;
+            font-size: 26px;
+            line-height: 35px;
+            padding: 0 16px;
+            margin-left: 20px;
+            -webkit-transition: .5s;
+            -o-transition: .5s;
+            transition: .5s; }
+            .main .projects .current-projects-slider .current-project__content .project-data__top .project-btn:hover {
+              background: #000;
+              -webkit-transition: .5s;
+              -o-transition: .5s;
+              transition: .5s; }
+        .main .projects .current-projects-slider .current-project__content .project-data__text {
+          padding-top: 16px;
+          font-size: 26px;
+          line-height: 30px;
+          color: #000000;
+          overflow-y: scroll;
+          max-height: 250px;
+          padding-right: 20px; }
+          .main .projects .current-projects-slider .current-project__content .project-data__text::-webkit-scrollbar {
+            width: 14px;
+            background: rgba(238, 162, 37, 0.34);
+            border-radius: 24px; }
+          .main .projects .current-projects-slider .current-project__content .project-data__text::-webkit-scrollbar-thumb {
+            background: #FFA615; }
+      .main .projects .current-projects-slider .current-project__content .project-photo-slider {
+        min-width: 1px;
+        width: 50%;
+        max-width: 500px;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
         -webkit-box-align: center;
         -ms-flex-align: center;
-        align-items: center; }
-        .main .projects .current-projects-slider .current-project__content .project-data__top .project-title {
-          font-weight: 600;
-          font-size: 54px;
-          line-height: 72px;
-          color: #FFA615; }
-        .main .projects .current-projects-slider .current-project__content .project-data__top .project-btn {
-          background: #FFA615;
-          border-radius: 31px;
-          text-transform: uppercase;
-          font-family: 'Exo', sans-serif;
-          color: #fff;
-          font-weight: 500;
-          font-size: 26px;
-          line-height: 35px;
-          padding: 0 16px;
-          margin-left: 20px;
-          -webkit-transition: .5s;
-          -o-transition: .5s;
-          transition: .5s; }
-          .main .projects .current-projects-slider .current-project__content .project-data__top .project-btn:hover {
-            background: #000;
-            -webkit-transition: .5s;
-            -o-transition: .5s;
-            transition: .5s; }
-      .main .projects .current-projects-slider .current-project__content .project-data__text {
-        padding-top: 16px;
-        padding-top: 16px;
-        font-size: 26px;
-        line-height: 30px;
-        color: #000000;
-        overflow-y: scroll;
-        max-height: 250px; }
-    .main .projects .current-projects-slider .current-project__content .project-photo-slider {
-      min-width: 1px;
-      width: 50%;
-      max-width: 400px; }
-      .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .overlay-little-photo {
-        max-width: 65px; }
-        .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .overlay-little-photo img {
-          max-width: 100%; }
+        align-items: center;
+        max-height: 285px; }
+        .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-main-photo {
+          min-width: 1px;
+          width: 100%;
+          text-align: center; }
+        .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav {
+          min-width: 1px;
+          width: 65px;
+          height: 100%;
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-orient: vertical;
+          -webkit-box-direction: normal;
+          -ms-flex-direction: column;
+          flex-direction: column;
+          -webkit-box-pack: center;
+          -ms-flex-pack: center;
+          justify-content: center;
+          cursor: pointer; }
+          .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .project-photo-nav__item {
+            padding-bottom: 10px;
+            position: relative; }
+            .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .project-photo-nav__item .overlay-photo {
+              position: absolute;
+              top: 0;
+              left: 0;
+              right: 0;
+              bottom: 10px; }
+            .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .project-photo-nav__item img {
+              width: 100%; }

@@ -701,18 +701,36 @@ section{
       }
     }
     .current-projects-slider{
+      width: 100%;
+      padding-top: 50px;
       .current-project{
-        padding: 85px 85px 120px;
+        padding: 8.5vh 85px 12vh;
         background: $main-orange;
         &__content{
           padding: 29px 100px 53px 133px;
           display: flex;
+          align-items: flex-end;
           justify-content: space-between;
           box-shadow: inset 0 4px 24px rgba(0, 0, 0, 0.25), inset 0 4px 15px rgba(0, 0, 0, 0.25);
           background: #fff;
+          position: relative;
+          &:before{
+            position: absolute;
+            content: '';
+            display: block;
+            top: 0;
+            left: 0;
+
+            width: 200px;
+            height: 236px;
+            transform:  translateY(-40%) translateX(-40%) ;
+
+            background: url("../img/project-face1.png");
+          }
           .project-data{
             width: 50%;
             max-width: 520px;
+
             &__top{
               display: flex;
               align-items: center;
@@ -744,30 +762,69 @@ section{
             }
             &__text{
               padding-top: 16px;
-              padding-top: 16px;
               font-size: 26px;
               line-height: 30px;
               color: #000000;
               overflow-y: scroll;
               max-height: 250px;
+              padding-right: 20px;
+
+              &::-webkit-scrollbar{
+                width: 14px;
+                background: rgba(238, 162, 37, 0.34);
+                border-radius: 24px;
+              }
+            &::-webkit-scrollbar-thumb {
+              background: $main-orange;
+            }
             }
           }
           .project-photo-slider{
             min-width: 1px;
             width: 50%;
-            max-width: 400px;
+            max-width: 500px;
+            display: flex;
+            align-items: center;
+            max-height: 285px;
+
             .project-main-photo{
+              min-width: 1px;
+              width: 100%;
+              text-align: center;
 
+              &__item{
+
+              }
             }
+            
             .project-photo-nav{
-              .overlay-little-photo{
-                max-width: 65px;
+              min-width: 1px;
+              width: 65px;
+              height: 100%;
+              display: flex;
+              flex-direction: column;
+              justify-content: center;
+              cursor: pointer;
 
+              .project-photo-nav__item{
+                padding-bottom: 10px;
+                position: relative;
+
+                .overlay-photo{
+                  position: absolute;
+                  top:0;
+                  left:0;
+                  right:0;
+                  bottom:10px;
+
+
+                }
                 img{
-                  max-width: 100%;
+                  width: 100%;
                 }
               }
             }
+
           }
         }
       }
