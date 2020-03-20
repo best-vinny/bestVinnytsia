@@ -97,5 +97,19 @@
 .project-photo-nav .slick-track {
   display: block; }
 
-.project-photo-nav .slick-current .overlay-photo {
-  background: rgba(255, 166, 21, 0.63) !important; }
+.ebec .slick-current .overlay-photo {
+  background: rgba(255, 166, 21, 0.63); }
+
+.jf .slick-current .overlay-photo {
+  background: -webkit-linear-gradient(317.32deg, rgba(167, 95, 255, 0.63) 15.76%, rgba(121, 189, 255, 0.63) 92.62%);
+  background: -o-linear-gradient(317.32deg, rgba(167, 95, 255, 0.63) 15.76%, rgba(121, 189, 255, 0.63) 92.62%);
+  background: linear-gradient(132.68deg, rgba(167, 95, 255, 0.63) 15.76%, rgba(121, 189, 255, 0.63) 92.62%); }
+
+.ir .slick-current .overlay-photo {
+  background: rgba(253, 51, 51, 0.63); }
+
+.sc .slick-current .overlay-photo {
+  background: rgba(243, 197, 40, 0.63); }
+
+.btw .slick-current .overlay-photo {
+  background: rgba(255, 166, 21, 0.63); }
