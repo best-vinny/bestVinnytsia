@@ -662,6 +662,7 @@ $main-red: #FF0000;
     }
   }
 
+
   .projects {
     .section-top {
       padding-bottom: 100px;
@@ -759,7 +760,7 @@ $main-red: #FF0000;
       padding-top: 50px;
 
       .current-project {
-        padding: 8.5vh 85px 12vh;
+        padding: 90px 85px 60px;
 
         &__content {
           padding: 29px 100px 53px 133px;
@@ -776,12 +777,9 @@ $main-red: #FF0000;
             display: block;
             top: 0;
             left: 0;
-
             width: 200px;
             height: 236px;
             transform: translateY(-40%) translateX(-40%);
-
-
           }
 
           .project-data {
@@ -1031,6 +1029,101 @@ $main-red: #FF0000;
             //}
           }
         }
+      }
+    }
+  }
+  .partners{
+
+    &-list{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 75vw;
+      margin: 0 auto ;
+      padding: 100px 0 200px;
+      .partner-item{
+        min-width: 200px;
+        margin: 50px 5%;
+
+
+        &:hover{
+          img{
+            transform: scale(1.2);
+            transition: .5s;
+          }
+        }
+
+        img{
+          display: block;
+          margin: 0 auto;
+          transition: .5s;
+        }
+      }
+    }
+  }
+  .board{
+    .section-body{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      width: 65%;
+      margin: 0 auto;
+      padding: 100px 0 140px ;
+    }
+    &-item{
+      margin: 22px 0;
+      position: relative;
+      transition: .5s;
+
+      &:hover{
+       transform: scale(1.2);
+        transition: .5s;
+
+        .board-description{
+          height: 41%;
+          transition: .5s;
+
+          .board__mail{
+            opacity: 1;
+            transition: .5s;
+          }
+        }
+
+      }
+
+    }
+    &-description{
+      position: absolute;
+      bottom: 0;
+      text-align: center;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.78);
+      height: 31%;
+      transition: .5s;
+
+     .board__name{
+       font-weight: 500;
+       font-size: 20px;
+       line-height: 27px;
+       color: #fff;
+       padding: 11px 6px;
+     }
+      .board__role{
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 21px;
+        color: rgba(255, 255, 255, 0.62);
+      }
+      .board__mail{
+        padding-top: 5px;
+        color: rgba(255, 255, 255, 0.62);
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 23px;
+        opacity: 0;
+        transition: .5s;
       }
     }
   }
