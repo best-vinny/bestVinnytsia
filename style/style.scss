@@ -1109,12 +1109,14 @@ $main-red: #FF0000;
        line-height: 27px;
        color: #fff;
        padding: 11px 6px;
+       text-transform: uppercase;
      }
       .board__role{
         font-weight: 500;
         font-size: 18px;
         line-height: 21px;
         color: rgba(255, 255, 255, 0.62);
+        text-transform: uppercase;
       }
       .board__mail{
         padding-top: 5px;
@@ -1126,5 +1128,98 @@ $main-red: #FF0000;
         transition: .5s;
       }
     }
+  }
+}
+.footer{
+  display: flex;
+ flex-direction: column;
+  padding: 50px 0  ;
+  background: #424141;
+  color: #fff;
+
+  .section-top{
+
+    .section-header{
+      text-align: center;
+      font-weight: 500;
+      font-size: 54px;
+      line-height: 72px;
+      text-transform: uppercase;
+    }
+    .footer-social-icons{
+      padding: 35px 0 33px;
+      display: flex;
+      justify-content: center;
+
+
+      &:first-child{
+        padding: 10px;
+      }
+
+      .soc-icon{
+        display: block;
+        margin: 0  10px ;
+        &:first-child{
+          svg path{
+            transition: .5s;
+          }
+          &:hover{
+            svg path{
+              fill: $main-orange;
+              transition: .5s;
+            }
+          }
+        }
+
+        &:nth-child(2){
+          svg path{
+            transition: .5s;
+          }
+          &:hover{
+            svg path{
+              fill: $main-blue;
+              transition: .5s;
+            }
+          }
+        }
+
+        &:last-child{
+          svg path{
+            transition: .5s;
+          }
+
+          &:hover{
+            svg path{
+              fill: $main-green;
+              transition: .5s;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &-data{
+    margin: 0 auto;
+    &__line{
+      display: flex;
+      align-items: flex-end;
+      padding: 12px 0;
+    }
+    &-icon{
+      padding-right: 16px;
+    }
+    &__text{
+      font-size: 26px;
+      line-height: 30px;
+
+    }
+  }
+  &-copywriter-line{
+    padding-top: 90px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
   }
 }
