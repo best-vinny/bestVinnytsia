@@ -9,8 +9,6 @@
     <link rel="stylesheet" href="style/zero.css">
     <link rel="stylesheet" href="style/sliders.css">
     <link rel="stylesheet" href="style/style.css">
-
-
 </head>
 <body>
 <header class="header">
@@ -18,9 +16,9 @@
         <div class="header__top">
             <div class="logo"><a href="#"><img class="logo-img" src="img/best-logo-bw.png" alt="BEST logo"></a></div>
             <ul class="menu">
-                <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">About us</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Projects</a>
+                <li class="menu__item"><a class="menu__link" href="/">Home</a></li>
+                <li class="menu__item"><a class="menu__link" href="#aboutUs">About us</a></li>
+                <li class="menu__item"><a class="menu__link" href="#projects">Projects</a>
                     <ul class="dd-menu">
                         <li class="dd-menu__bridge"></li>
                         <li class="dd-menu__item"><a class="dd-menu__link" href="#">EBEC</a></li>
@@ -30,9 +28,9 @@
                         <li class="dd-menu__item"><a class="dd-menu__link" href="#">BEST TRAINING WEEK </a></li>
                     </ul>
                 </li>
-                <li class="menu__item"><a class="menu__link" href="#">Board</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Partners</a></li>
-                <li class="menu__item"><a class="menu__link" href="#">Contacts</a></li>
+                <li class="menu__item"><a class="menu__link" href="#board">Board</a></li>
+                <li class="menu__item"><a class="menu__link" href="#partners">Partners</a></li>
+                <li class="menu__item"><a class="menu__link" href="#contacts">Contacts</a></li>
             </ul>
             <div class="change-lang">
                 <p class="lang">eng</p>
@@ -54,7 +52,7 @@
 </header>
 <main class="main">
     <div class="container">
-        <section class="about-us">
+        <section class="about-us" id="aboutUs">
             <div class="section-top">
                 <h2 class="section-header">WHO WE ARE?</h2>
                 <div class="section-before">
@@ -189,7 +187,7 @@
                 </div>
             </div>
         </section>
-        <section class="projects">
+        <section id="projects" class="projects">
             <div class="section-top">
                 <h2 class="section-header">our projects</h2>
                 <div class="section-before">
@@ -553,7 +551,7 @@
                 </div>
             </div>
         </section>
-        <section class="partners">
+        <section id="partners" class="partners">
             <div class="section-top">
                 <h2 class="section-header">OUR PARTNERS</h2>
                 <div class="section-before">
@@ -582,7 +580,7 @@
                 </div>
             </div>
         </section>
-        <section class="board">
+        <section id="board" class="board">
             <div class="section-top">
                 <h2 class="section-header">board</h2>
                 <div class="section-before">
@@ -644,7 +642,7 @@
         </section>
     </div>
 </main>
-<footer class="footer">
+<footer class="footer" id="contacts">
     <div class="section-top">
         <h2 class="section-header">CONTACTS</h2>
         <div class="footer-social-icons">

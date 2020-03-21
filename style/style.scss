@@ -13,6 +13,9 @@ $main-blue: #3199DB;
 $main-pink: #E156E3;
 $main-red: #FF0000;
 
+*{
+  scroll-behavior: smooth;
+}
 
 .green {
   color: $main-green;
@@ -1033,7 +1036,7 @@ $main-red: #FF0000;
     }
   }
   .partners{
-
+    padding-top: 180px;
     &-list{
       display: flex;
       justify-content: center;
@@ -1078,6 +1081,7 @@ $main-red: #FF0000;
       transition: .5s;
 
       &:hover{
+        z-index: 200;
        transform: scale(1.2);
         transition: .5s;
 
@@ -1090,9 +1094,7 @@ $main-red: #FF0000;
             transition: .5s;
           }
         }
-
       }
-
     }
     &-description{
       position: absolute;
