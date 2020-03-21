@@ -31,6 +31,11 @@ $main-red: #FF0000;
   z-index: 10;
   color: rgba(0, 0, 0, 0.25);
   font-family: "IcoFont";
+  transition: .5s;
+  &:hover, &:active{
+     color: $main-blue;
+    transition: .5s;
+  }
 }
 
 .slick-prev{

@@ -66,3 +66,23 @@ $('.project-photo-nav').slick({
     touchMove: false,
 });
 
+const checkboxAll = document.querySelector('.all');
+const checkboxVinny = document.querySelector('.vinny');
+const map = document.querySelector('#map');
+
+checkboxAll.onclick = toReplaceImg1;
+checkboxVinny.onclick = toReplaceImg2;
+
+function toReplaceImg1(){
+ if(map.src === window.location.href + 'img/map1.jpg'){
+     map.src = 'img/map2.jpg';
+     checkboxVinny.classList.toggle('hidden');
+ }  else{
+     map.src = 'img/map1.jpg';
+     checkboxVinny.classList.toggle('hidden');
+ }
+}
+
+function toReplaceImg2(){
+ map.src = map.src === window.location.href + 'img/map2.jpg'? 'img/map3.jpg': 'img/map2.jpg';
+}

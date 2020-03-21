@@ -1,4 +1,4 @@
-p, span, a {
+p, span, a, label {
   font-family: 'Roboto', sans-serif; }
 
 h1, h2, h3, h4, h5, h6, button {
@@ -25,6 +25,56 @@ h1, h2, h3, h4, h5, h6, button {
 .container {
   max-width: 1440px;
   margin: 0 auto; }
+
+.hidden {
+  opacity: 0;
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s; }
+
+.main-btn {
+  display: inline-block;
+  position: relative;
+  background: initial;
+  border: 4px solid #FFFFFF;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  border-radius: 36px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 39px;
+  text-align: center;
+  padding: 10px 92px 10px 21px;
+  margin: 6% auto 0;
+  text-transform: uppercase;
+  -webkit-transition: padding 1s;
+  -o-transition: padding 1s;
+  transition: padding 1s; }
+  .main-btn:after {
+    content: '\eab8';
+    font-family: IcoFont;
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: calc(50% - 20px);
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background: #fff;
+    color: #1B689B;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 2px;
+    padding-left: 2px;
+    -webkit-transition: right 1s;
+    -o-transition: right 1s;
+    transition: right 1s; }
+  .main-btn:hover {
+    padding: 10px 123px 10px 21px;
+    -webkit-transition: padding 1s;
+    -o-transition: padding 1s;
+    transition: padding 1s; }
 
 .header__top {
   display: -webkit-box;
@@ -140,7 +190,14 @@ h1, h2, h3, h4, h5, h6, button {
   height: calc(100vh - 80px);
   width: 100%;
   position: relative;
-  z-index: 1; }
+  z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
   .header-body .header-overlay {
     background-image: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 113, 185, 0.73)), to(rgba(0, 113, 185, 0.73)));
     background-image: -webkit-linear-gradient(bottom, rgba(0, 113, 185, 0.73), rgba(0, 113, 185, 0.73));
@@ -165,49 +222,6 @@ h1, h2, h3, h4, h5, h6, button {
     line-height: 42px;
     text-align: center;
     color: #FFFFFF; }
-  .header-body__btn {
-    display: block;
-    position: relative;
-    background: initial;
-    border: 4px solid #FFFFFF;
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    border-radius: 36px;
-    color: #fff;
-    font-weight: bold;
-    font-size: 29px;
-    line-height: 39px;
-    text-align: center;
-    padding: 10px 92px 10px 21px;
-    margin: 6% auto 0;
-    text-transform: uppercase;
-    -webkit-transition: padding 1s;
-    -o-transition: padding 1s;
-    transition: padding 1s; }
-    .header-body__btn:after {
-      content: '\eab8';
-      font-family: IcoFont;
-      display: block;
-      position: absolute;
-      right: 25px;
-      top: calc(50% - 20px);
-      width: 41px;
-      height: 41px;
-      border-radius: 50%;
-      background: #fff;
-      color: #1B689B;
-      font-weight: normal;
-      text-align: center;
-      padding-top: 2px;
-      padding-left: 2px;
-      -webkit-transition: right 1s;
-      -o-transition: right 1s;
-      transition: right 1s; }
-    .header-body__btn:hover {
-      padding: 10px 123px 10px 21px;
-      -webkit-transition: padding 1s;
-      -o-transition: padding 1s;
-      transition: padding 1s; }
   .header-body__arrow {
     position: absolute;
     cursor: pointer;
@@ -279,12 +293,17 @@ h1, h2, h3, h4, h5, h6, button {
   .main .section-body .section-description {
     font-size: 29px;
     line-height: 34px;
-    max-width: 375px;
     text-align: justify; }
     .main .section-body .section-description .section-before {
       width: 50%;
       height: 8px;
       margin-bottom: 15px; }
+    .main .section-body .section-description .main-btn {
+      border: 4px solid #3199DB;
+      color: #3199DB; }
+      .main .section-body .section-description .main-btn:after {
+        background: #3199DB;
+        color: #fff; }
   .main .section-body .two-slide-slider {
     min-width: 0;
     width: 53vw;
@@ -336,25 +355,69 @@ h1, h2, h3, h4, h5, h6, button {
       .main .section-body .two-slide-slider .two-slide-slider__slide .two-slide-slider__empty-map {
         max-width: 100%; }
 
+.main .about-us .checkbox {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  margin-right: 50px; }
+  .main .about-us .checkbox input[type="checkbox"] {
+    display: none; }
+    .main .about-us .checkbox input[type="checkbox"]:checked + label:after {
+      background-image: url("../img/checkbox-on.svg"); }
+  .main .about-us .checkbox label {
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 29px;
+    padding-right: 50px;
+    cursor: pointer;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s; }
+    .main .about-us .checkbox label:after {
+      content: '';
+      display: inline-block;
+      vertical-align: middle;
+      width: 36px;
+      height: 37px;
+      text-align: center;
+      background-image: url("../img/checkbox-off.svg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      margin-left: 10px; }
+
 .main .about-us .section-body {
   padding-top: 50px;
   -webkit-box-pack: space-evenly;
   -ms-flex-pack: space-evenly;
   justify-content: space-evenly; }
-  .main .about-us .section-body .section-description .section-text {
-    position: relative;
-    z-index: 1; }
-    .main .about-us .section-body .section-description .section-text:before {
-      z-index: -1;
-      content: ' ';
-      display: block;
-      background: url(../img/quotes.png);
-      position: absolute;
-      top: 20px;
-      left: -70px;
-      color: #FFFFFF;
-      width: 123px;
-      height: 101px; }
+  .main .about-us .section-body .section-description {
+    max-width: 460px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .main .about-us .section-body .section-description .section-text {
+      position: relative;
+      z-index: 1;
+      font-size: 23px;
+      line-height: 27px; }
+      .main .about-us .section-body .section-description .section-text:before {
+        z-index: -1;
+        content: ' ';
+        display: block;
+        background: url(../img/quotes.png);
+        position: absolute;
+        top: 20px;
+        left: -70px;
+        color: #FFFFFF;
+        width: 123px;
+        height: 101px; }
 
 .main .our-power {
   padding-bottom: 112px; }

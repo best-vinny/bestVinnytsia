@@ -1,4 +1,4 @@
-p, span, a {
+p, span, a, label {
   font-family: 'Roboto', sans-serif;
 }
 
@@ -42,6 +42,53 @@ $main-red: #FF0000;
   margin: 0 auto;
 }
 
+.hidden{
+  opacity: 0;
+  transition: .5s;
+}
+
+.main-btn {
+  display: inline-block;
+  position: relative;
+  background: initial;
+  border: 4px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 36px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 29px;
+  line-height: 39px;
+  text-align: center;
+  padding: 10px 92px 10px 21px;
+  margin: 6% auto 0;
+  text-transform: uppercase;
+  transition: padding 1s;
+
+  &:after {
+    content: '\eab8';
+    font-family: IcoFont;
+    display: block;
+    position: absolute;
+    right: 25px;
+    top: calc(50% - 20px);
+    width: 41px;
+    height: 41px;
+    border-radius: 50%;
+    background: #fff;
+    color: $hover-text-color;
+    font-weight: normal;
+    text-align: center;
+    padding-top: 2px;
+    padding-left: 2px;
+    transition: right 1s;
+  }
+
+  &:hover {
+    padding: 10px 123px 10px 21px;
+    transition: padding 1s;
+
+  }
+}
 
 .header {
 
@@ -199,6 +246,8 @@ $main-red: #FF0000;
     width: 100%;
     position: relative;
     z-index: 1;
+    display: flex;
+    flex-direction: column;
 
 
     .header-overlay {
@@ -228,48 +277,7 @@ $main-red: #FF0000;
       color: #FFFFFF;
     }
 
-    &__btn {
-      display: block;
-      position: relative;
-      background: initial;
-      border: 4px solid #FFFFFF;
-      box-sizing: border-box;
-      border-radius: 36px;
-      color: #fff;
-      font-weight: bold;
-      font-size: 29px;
-      line-height: 39px;
-      text-align: center;
-      padding: 10px 92px 10px 21px;
-      margin: 6% auto 0;
-      text-transform: uppercase;
-      transition: padding 1s;
 
-      &:after {
-        content: '\eab8';
-        font-family: IcoFont;
-        display: block;
-        position: absolute;
-        right: 25px;
-        top: calc(50% - 20px);
-        width: 41px;
-        height: 41px;
-        border-radius: 50%;
-        background: #fff;
-        color: $hover-text-color;
-        font-weight: normal;
-        text-align: center;
-        padding-top: 2px;
-        padding-left: 2px;
-        transition: right 1s;
-      }
-
-      &:hover {
-        padding: 10px 123px 10px 21px;
-        transition: padding 1s;
-
-      }
-    }
 
     &__arrow {
       position: absolute;
@@ -347,7 +355,6 @@ $main-red: #FF0000;
     .section-description {
       font-size: 29px;
       line-height: 34px;
-      max-width: 375px;
       text-align: justify;
       //width: 26%;
 
@@ -355,6 +362,16 @@ $main-red: #FF0000;
         width: 50%;
         height: 8px;
         margin-bottom: 15px;
+      }
+
+      .main-btn {
+        border: 4px solid $main-blue;
+        color: $main-blue;
+
+        &:after {
+          background: $main-blue;
+          color: #fff;
+        }
       }
     }
 
@@ -423,14 +440,56 @@ $main-red: #FF0000;
   }
 
   .about-us {
+
+    .checkbox{
+      display: flex;
+      justify-content: flex-end;
+      margin-right: 50px;
+
+      input[type="checkbox"]{
+        display: none;
+        &:checked + label:after{
+          background-image: url('../img/checkbox-on.svg');
+        }
+      }
+
+      label{
+        font-weight: 500;
+        font-size: 25px;
+        line-height: 29px;
+        padding-right: 50px;
+        cursor: pointer;
+        transition: .5s;
+
+        &:after{
+          content:'';
+          display: inline-block;
+          vertical-align: middle;
+          width: 36px;
+          height: 37px;
+          text-align: center;
+          background-image: url('../img/checkbox-off.svg');
+          background-size: 100%;
+          background-repeat: no-repeat;
+          margin-left: 10px;
+        }
+      }
+
+    }
+
     .section-body {
       padding-top: 50px;
       justify-content: space-evenly;
 
       .section-description {
+        max-width: 460px;
+        display: flex;
+        flex-direction: column;
         .section-text {
           position: relative;
           z-index: 1;
+          font-size: 23px;
+          line-height: 27px;
 
 
           &:before {

@@ -18,7 +18,15 @@
   top: 50%;
   z-index: 10;
   color: rgba(0, 0, 0, 0.25);
-  font-family: "IcoFont"; }
+  font-family: "IcoFont";
+  -webkit-transition: .5s;
+  -o-transition: .5s;
+  transition: .5s; }
+  .slick-arrow:hover, .slick-arrow:active {
+    color: #3199DB;
+    -webkit-transition: .5s;
+    -o-transition: .5s;
+    transition: .5s; }
 
 .slick-prev {
   left: -50px;

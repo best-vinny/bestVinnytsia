@@ -14,7 +14,7 @@
 <header class="header">
     <div class="container">
         <div class="header__top">
-            <div class="logo"><a href="#"><img class="logo-img" src="img/best-logo-bw.png" alt="BEST logo"></a></div>
+            <div class="logo"><a href="/"><img class="logo-img" src="img/best-logo-bw.png" alt="BEST logo"></a></div>
             <ul class="menu">
                 <li class="menu__item"><a class="menu__link" href="/">Home</a></li>
                 <li class="menu__item"><a class="menu__link" href="#aboutUs">About us</a></li>
@@ -46,8 +46,8 @@
         <div class="header-overlay"></div>
         <h1 class="header-body__title">BEST VINNYTSIA</h1>
         <p class="header-body__sub-title">Show yourself to the world</p>
-        <button class="header-body__btn">Join us</button>
-        <div class="header-body__arrow"><i class="icofont-simple-down"></i></div>
+        <a href="/" class="main-btn">Join us</a>
+        <div class="header-body__arrow"><a href="#aboutUs"><i class="icofont-simple-down"></i></a></div>
     </div>
 </header>
 <main class="main">
@@ -60,6 +60,12 @@
                     <div class="section-before__blue"></div>
                     <div class="section-before__green"></div>
                 </div>
+                <div class="checkbox">
+                    <input type="checkbox" id="all">
+                    <label class="all" for="all">All BEST LBG</label>
+                    <input type="checkbox" id="vinny">
+                    <label class="vinny hidden"  for="vinny">Vinnie LBG</label>
+                </div>
             </div>
             <div class="section-body">
                 <div class="section-description">
@@ -69,17 +75,14 @@
                         <div class="section-before__green"></div>
                     </div>
                     <p class="section-text">
-                        BEST, Board of European Students of Technology, is a constantly growing non-profit and
-                        non-political organisation. Since 1989 BEST has been providing communication, cooperation and
-                        exchange opportunities for students all over Europe.
-                        <br>
-                        <br>
-                        <!--                        97 Local BEST Groups in 34 countries are creating a growing, well-organised, powerful, young and innovative student network. More than 3300 members are involved in the day-to-day development of our services and almost one million students are reached through our events and initiatives.-->
+                        BEST, Board of European Students of Technology, is a constantly growing non-profit and non-political organisation. Since 1989 BEST has been providing communication, cooperation and exchange opportunities for students all over Europe.
+                        97 Local BEST Groups in 34 countries are creating a growing, well-organised, powerful, young and innovative student network. More than 3300 members are involved in the day-to-day development of our services and almost one million students are reached through our events and initiatives.
                     </p>
+                    <a href="#" class="main-btn">more</a>
                 </div>
                 <div class="two-slide-slider">
-                    <div class="two-slide-slider__slide">
-                        <img src="img/empty-map.jpg" alt="" class="two-slide-slider__empty-map">
+                    <div class="two-slide-slider__slide" >
+                        <img src="img/map1.jpg" alt=""  id="map" class="two-slide-slider__empty-map">
                     </div>
                     <div class="two-slide-slider__slide">
                         <div class="data-list">
