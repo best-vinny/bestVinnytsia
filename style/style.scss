@@ -310,7 +310,6 @@ $main-red: #FF0000;
     justify-content: center;
   }
 
-
   .section-before {
     display: flex;
     justify-content: space-between;
@@ -725,7 +724,6 @@ $main-red: #FF0000;
     }
   }
 
-
   .projects {
     .section-top {
       padding-bottom: 100px;
@@ -1095,6 +1093,7 @@ $main-red: #FF0000;
       }
     }
   }
+
   .partners{
     padding-top: 180px;
     &-list{
@@ -1107,8 +1106,7 @@ $main-red: #FF0000;
       padding: 100px 0 200px;
       .partner-item{
         min-width: 200px;
-        margin: 50px 5%;
-
+        margin: 50px 2vw;
 
         &:hover{
           img{

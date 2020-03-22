@@ -850,7 +850,7 @@ h1, h2, h3, h4, h5, h6, button {
     padding: 100px 0 200px; }
     .main .partners-list .partner-item {
       min-width: 200px;
-      margin: 50px 5%; }
+      margin: 50px 2vw; }
       .main .partners-list .partner-item:hover img {
         -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
