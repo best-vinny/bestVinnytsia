@@ -30,7 +30,8 @@ h1, h2, h3, h4, h5, h6, button {
   opacity: 0;
   -webkit-transition: .5s;
   -o-transition: .5s;
-  transition: .5s; }
+  transition: .5s;
+  display: none; }
 
 .main-btn {
   display: inline-block;

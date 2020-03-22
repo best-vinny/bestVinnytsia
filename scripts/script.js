@@ -69,20 +69,32 @@ $('.project-photo-nav').slick({
 const checkboxAll = document.querySelector('.all');
 const checkboxVinny = document.querySelector('.vinny');
 const map = document.querySelector('#map');
-
+const checkbox1 = document.querySelector('#all');
+const checkbox2 = document.querySelector('#vinny');
 checkboxAll.onclick = toReplaceImg1;
 checkboxVinny.onclick = toReplaceImg2;
 
-function toReplaceImg1(){
- if(map.src === window.location.href + 'img/map1.jpg'){
-     map.src = 'img/map2.jpg';
-     checkboxVinny.classList.toggle('hidden');
- }  else{
-     map.src = 'img/map1.jpg';
-     checkboxVinny.classList.toggle('hidden');
- }
+function toReplaceImg1() {
+    console.log(1,checkbox1.checked,2,checkbox2.checked);
+    if(!checkbox1.checked){
+        map.src = 'img/map2.jpg';
+        checkboxVinny.classList.toggle('hidden');
+        checkbox2.checked= false
+    }
+    if(checkbox1.checked){
+        map.src = 'img/map1.jpg';
+        checkboxVinny.classList.toggle('hidden');
+    }
 }
 
 function toReplaceImg2(){
- map.src = map.src === window.location.href + 'img/map2.jpg'? 'img/map3.jpg': 'img/map2.jpg';
+    console.log(1,checkbox1.checked,2,checkbox2.checked);
+    if(!checkbox2.checked){
+        map.src = 'img/map3.jpg';
+    }
+    if(checkbox2.checked){
+        map.src = 'img/map2.jpg';
+    }
 }
+
+

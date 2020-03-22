@@ -45,6 +45,7 @@ $main-red: #FF0000;
 .hidden{
   opacity: 0;
   transition: .5s;
+  display: none;
 }
 
 .main-btn {
