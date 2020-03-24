@@ -92,12 +92,18 @@ $main-red: #FF0000;
 }
 
 .header {
-
   &__top {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: fixed;
     padding: 16px 4% 16px 7%;
+    z-index: 99999999999;
+    width: 100vw;
+    background: #fff;
+    left: 0;
+    top: 0;
+    box-shadow:  0 10px 24px rgba(0, 0, 0, 0.25);
 
     .logo {
       &-img {
@@ -113,7 +119,7 @@ $main-red: #FF0000;
       width: 150px;
       box-shadow: 0 42px 22px rgba(0, 0, 0, 0.25);
       opacity: 0;
-      transition: opacity 1s;
+      transition: 1s;
 
       &__bridge {
         height: 29px;
@@ -240,6 +246,7 @@ $main-red: #FF0000;
   }
 
   &-body {
+    margin-top: 80px;
     background-image: url("../img/header-bg.jpg");
     background-size: cover;
     background-position: center;
@@ -1182,7 +1189,7 @@ $main-red: #FF0000;
         padding-top: 5px;
         color: rgba(255, 255, 255, 0.62);
         font-weight: 500;
-        font-size: 20px;
+        font-size: 17px;
         line-height: 23px;
         opacity: 0;
         transition: .5s;
@@ -1190,6 +1197,7 @@ $main-red: #FF0000;
     }
   }
 }
+
 .footer{
   display: flex;
  flex-direction: column;

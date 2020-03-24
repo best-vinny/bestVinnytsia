@@ -87,7 +87,15 @@ h1, h2, h3, h4, h5, h6, button {
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
-  padding: 16px 4% 16px 7%; }
+  position: fixed;
+  padding: 16px 4% 16px 7%;
+  z-index: 99999999999;
+  width: 100vw;
+  background: #fff;
+  left: 0;
+  top: 0;
+  -webkit-box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25); }
   .header__top .logo-img {
     max-width: 100%; }
   .header__top .dd-menu {
@@ -101,9 +109,9 @@ h1, h2, h3, h4, h5, h6, button {
     -webkit-box-shadow: 0 42px 22px rgba(0, 0, 0, 0.25);
     box-shadow: 0 42px 22px rgba(0, 0, 0, 0.25);
     opacity: 0;
-    -webkit-transition: opacity 1s;
-    -o-transition: opacity 1s;
-    transition: opacity 1s; }
+    -webkit-transition: 1s;
+    -o-transition: 1s;
+    transition: 1s; }
     .header__top .dd-menu__bridge {
       height: 29px;
       background: initial; }
@@ -185,6 +193,7 @@ h1, h2, h3, h4, h5, h6, button {
         cursor: pointer; }
 
 .header-body {
+  margin-top: 80px;
   background-image: url("../img/header-bg.jpg");
   background-size: cover;
   background-position: center;
@@ -933,7 +942,7 @@ h1, h2, h3, h4, h5, h6, button {
     padding-top: 5px;
     color: rgba(255, 255, 255, 0.62);
     font-weight: 500;
-    font-size: 20px;
+    font-size: 17px;
     line-height: 23px;
     opacity: 0;
     -webkit-transition: .5s;
