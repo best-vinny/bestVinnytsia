@@ -5,41 +5,61 @@
     <title>BEST Vinnytsia</title>
     <link href="https://fonts.googleapis.com/css?family=Exo:400,500|Roboto:300,400,500,700&display=swap"
           rel="stylesheet">
+
     <link rel="stylesheet" href="icofont/icofont.min.css">
     <link rel="stylesheet" href="style/zero.css">
     <link rel="stylesheet" href="style/sliders.css">
     <link rel="stylesheet" href="style/style.css">
+    <link rel="stylesheet" href="style/adaptive.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body>
 <header class="header">
     <div class="container">
         <div class="header__top">
-            <div class="logo"><a href="/"><img class="logo-img" src="img/best-logo-bw.png" alt="BEST logo"></a></div>
-            <ul class="menu">
-                <li class="menu__item"><a class="menu__link" href="/">Home</a></li>
-                <li class="menu__item"><a class="menu__link" href="#aboutUs">About us</a></li>
-                <li class="menu__item"><a class="menu__link" href="#projects">Projects</a>
+                <div class="logo"><a href="/"><img class="logo-img" src="img/best-logo-bw.png" alt="BEST logo"></a></div>
+                <ul class="menu open-menu">
+                    <li class="menu__item"><a class="menu__link" href="/">Home</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#aboutUs">About us</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#projects">Projects</a>
+                        <ul class="dd-menu">
+                            <li class="dd-menu__bridge"></li>
+                            <li class="dd-menu__item"><a class="dd-menu__link" href="#">EBEC</a></li>
+                            <li class="dd-menu__item"><a class="dd-menu__link" href="#">JOB FAIR</a></li>
+                            <li class="dd-menu__item"><a class="dd-menu__link" href="#">IT-REVOLUTION</a></li>
+                            <li class="dd-menu__item"><a class="dd-menu__link" href="#">BEST COURSES</a></li>
+                            <li class="dd-menu__item"><a class="dd-menu__link" href="#">BEST TRAINING WEEK </a></li>
+                            <div class="change-lang">
+                                <p class="lang">eng</p>
+                                <ul class="dd-menu">
+                                    <li class="dd-menu__bridge"></li>
+                                    <!--<li class="dd-menu__item"><a href="#" class="dd-menu__link">ENGLISH</a></li>-->
+                                    <li class="dd-menu__item"><a href="#" class="dd-menu__link">УКРАЇНСЬКА</a></li>
+                                </ul>
+                            </div>
+                        </ul>
+                    </li>
+                    <li class="menu__item"><a class="menu__link" href="#partners">Partners</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#board">Board</a></li>
+                    <li class="menu__item"><a class="menu__link" href="#contacts">Contacts</a></li>
+                    <li class=" menu__btn">
+                        <a class="menu__link" id="menu-icon" href="javascript:void(0)">
+                            <div id="nav-icon1">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+                <div class="change-lang">
+                    <p class="lang">eng</p>
                     <ul class="dd-menu">
                         <li class="dd-menu__bridge"></li>
-                        <li class="dd-menu__item"><a class="dd-menu__link" href="#">EBEC</a></li>
-                        <li class="dd-menu__item"><a class="dd-menu__link" href="#">JOB FAIR</a></li>
-                        <li class="dd-menu__item"><a class="dd-menu__link" href="#">IT-REVOLUTION</a></li>
-                        <li class="dd-menu__item"><a class="dd-menu__link" href="#">BEST COURSES</a></li>
-                        <li class="dd-menu__item"><a class="dd-menu__link" href="#">BEST TRAINING WEEK </a></li>
+                        <!--<li class="dd-menu__item"><a href="#" class="dd-menu__link">ENGLISH</a></li>-->
+                        <li class="dd-menu__item"><a href="#" class="dd-menu__link">УКРАЇНСЬКА</a></li>
                     </ul>
-                </li>
-                <li class="menu__item"><a class="menu__link" href="#board">Board</a></li>
-                <li class="menu__item"><a class="menu__link" href="#partners">Partners</a></li>
-                <li class="menu__item"><a class="menu__link" href="#contacts">Contacts</a></li>
-            </ul>
-            <div class="change-lang">
-                <p class="lang">eng</p>
-                <ul class="dd-menu">
-                    <li class="dd-menu__bridge"></li>
-                    <!--<li class="dd-menu__item"><a href="#" class="dd-menu__link">ENGLISH</a></li>-->
-                    <li class="dd-menu__item"><a href="#" class="dd-menu__link">УКРАЇНСЬКА</a></li>
-                </ul>
-            </div>
+                </div>
         </div>
     </div>
     <div class="header-body">

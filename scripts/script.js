@@ -97,4 +97,11 @@ function toReplaceImg2(){
     }
 }
 
+$(document).ready(function(){
+    $('#nav-icon1').click(function(){
+        $(this).toggleClass('open');
+        $('.menu').toggleClass('open-menu');
+    });
+});
+
 

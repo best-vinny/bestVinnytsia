@@ -94,8 +94,9 @@ h1, h2, h3, h4, h5, h6, button {
   background: #fff;
   left: 0;
   top: 0;
-  -webkit-box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25);
-  box-shadow: 0 10px 24px rgba(0, 0, 0, 0.25); }
+  -webkit-box-shadow: 0 10px 24px black;
+  box-shadow: 0 10px 24px black;
+  height: 80px; }
   .header__top .logo-img {
     max-width: 100%; }
   .header__top .dd-menu {
@@ -118,7 +119,8 @@ h1, h2, h3, h4, h5, h6, button {
     .header__top .dd-menu__item {
       text-align: center;
       padding: 11px 0;
-      background: #FFFFFF; }
+      background: #FFFFFF;
+      display: none; }
       .header__top .dd-menu__item:hover {
         background-color: rgba(255, 255, 255, 0.5);
         cursor: pointer; }
@@ -155,7 +157,7 @@ h1, h2, h3, h4, h5, h6, button {
       .header__top .menu__item:nth-child(3) {
         position: relative; }
         .header__top .menu__item:nth-child(3):after {
-          content: "\ea6a";
+          content: "\ea67";
           font-family: "IcoFont";
           font-size: 20px;
           cursor: pointer; }
@@ -165,9 +167,13 @@ h1, h2, h3, h4, h5, h6, button {
           -o-transition: opacity 1s;
           transition: opacity 1s;
           z-index: 3; }
+          .header__top .menu__item:nth-child(3):hover .dd-menu__item {
+            display: block; }
         .header__top .menu__item:nth-child(3):hover:after {
           color: #1B689B;
-          content: '\ea67'; }
+          content: '\ea6a'; }
+    .header__top .menu__btn {
+      display: none; }
   .header__top .change-lang {
     position: relative; }
     .header__top .change-lang:hover {
@@ -178,6 +184,8 @@ h1, h2, h3, h4, h5, h6, button {
         -o-transition: opacity 1s;
         transition: opacity 1s;
         z-index: 3; }
+        .header__top .change-lang:hover .dd-menu__item {
+          display: block; }
       .header__top .change-lang:hover .lang:before {
         color: #1B689B;
         content: '\ea67'; }
@@ -854,12 +862,13 @@ h1, h2, h3, h4, h5, h6, button {
     align-items: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    width: 75vw;
     margin: 0 auto;
     padding: 100px 0 200px; }
     .main .partners-list .partner-item {
       min-width: 200px;
-      margin: 50px 2vw; }
+      margin: 50px;
+      width: 30%;
+      max-width: 350px; }
       .main .partners-list .partner-item:hover img {
         -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);

@@ -103,7 +103,8 @@ $main-red: #FF0000;
     background: #fff;
     left: 0;
     top: 0;
-    box-shadow:  0 10px 24px rgba(0, 0, 0, 0.25);
+    box-shadow:  0 10px 24px rgba(0, 0, 0, 1);
+    height: 80px;
 
     .logo {
       &-img {
@@ -130,6 +131,7 @@ $main-red: #FF0000;
         text-align: center;
         padding: 11px 0;
         background: #FFFFFF;
+        display: none;
 
         &:hover {
           background-color: rgba(255, 255, 255, 0.5);
@@ -158,6 +160,7 @@ $main-red: #FF0000;
       justify-content: space-between;
       align-items: center;
 
+
       &__item {
         text-align: center;
 
@@ -177,7 +180,7 @@ $main-red: #FF0000;
 
 
           &:after {
-            content: "\ea6a";
+            content: "\ea67";
             font-family: "IcoFont";
             font-size: 20px;
             cursor: pointer;
@@ -193,15 +196,21 @@ $main-red: #FF0000;
               opacity: 1;
               transition: opacity 1s;
               z-index: 3;
+            &__item{
+              display: block;
+            }
             }
 
             &:after {
               color: $hover-text-color;
-              content: '\ea67';
+              content: '\ea6a';
             }
 
           }
         }
+      }
+      &__btn{
+        display: none;
       }
     }
 
@@ -216,6 +225,9 @@ $main-red: #FF0000;
           opacity: 1;
           transition: opacity 1s;
           z-index: 3;
+          &__item{
+            display: block;
+          }
         }
 
         .lang:before {
@@ -1108,13 +1120,14 @@ $main-red: #FF0000;
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
-      width: 75vw;
+
       margin: 0 auto ;
       padding: 100px 0 200px;
       .partner-item{
         min-width: 200px;
-        margin: 50px 2vw;
-
+        margin: 50px ;
+        width: 30%;
+        max-width: 350px;
         &:hover{
           img{
             transform: scale(1.2);
