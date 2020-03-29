@@ -103,7 +103,6 @@ $main-red: #FF0000;
     background: #fff;
     left: 0;
     top: 0;
-    box-shadow:  0 10px 24px rgba(0, 0, 0, 1);
     height: 80px;
 
     .logo {
@@ -178,16 +177,22 @@ $main-red: #FF0000;
         &:nth-child(3) {
           position: relative;
 
+          .menu__link {
+            position: relative;
+            padding-right: 15px;
+            &:after {
+              position: absolute;
+              content: "\ea67";
+              font-family: "IcoFont";
+              font-size: 20px;
+              cursor: pointer;
 
-          &:after {
-            content: "\ea67";
-            font-family: "IcoFont";
-            font-size: 20px;
-            cursor: pointer;
-
-            //right: -25px;
-            //top:calc(50% - 10px);
+              right: -10px;
+              top:calc(50% - 8px);
+            }
           }
+
+
 
           &:hover {
             //padding: 10px 0;
@@ -196,16 +201,17 @@ $main-red: #FF0000;
               opacity: 1;
               transition: opacity 1s;
               z-index: 3;
-            &__item{
-              display: block;
+                &__item{
+                  display: block;
+                }
             }
+            .menu__link {
+              &:after {
+                color: $hover-text-color;
+                content: '\ea6a';
+                
+              }
             }
-
-            &:after {
-              color: $hover-text-color;
-              content: '\ea6a';
-            }
-
           }
         }
       }

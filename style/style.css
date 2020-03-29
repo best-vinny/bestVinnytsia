@@ -94,8 +94,6 @@ h1, h2, h3, h4, h5, h6, button {
   background: #fff;
   left: 0;
   top: 0;
-  -webkit-box-shadow: 0 10px 24px black;
-  box-shadow: 0 10px 24px black;
   height: 80px; }
   .header__top .logo-img {
     max-width: 100%; }
@@ -156,11 +154,17 @@ h1, h2, h3, h4, h5, h6, button {
           color: #1B689B; }
       .header__top .menu__item:nth-child(3) {
         position: relative; }
-        .header__top .menu__item:nth-child(3):after {
-          content: "\ea67";
-          font-family: "IcoFont";
-          font-size: 20px;
-          cursor: pointer; }
+        .header__top .menu__item:nth-child(3) .menu__link {
+          position: relative;
+          padding-right: 15px; }
+          .header__top .menu__item:nth-child(3) .menu__link:after {
+            position: absolute;
+            content: "\ea67";
+            font-family: "IcoFont";
+            font-size: 20px;
+            cursor: pointer;
+            right: -10px;
+            top: calc(50% - 8px); }
         .header__top .menu__item:nth-child(3):hover .dd-menu {
           opacity: 1;
           -webkit-transition: opacity 1s;
@@ -169,7 +173,7 @@ h1, h2, h3, h4, h5, h6, button {
           z-index: 3; }
           .header__top .menu__item:nth-child(3):hover .dd-menu__item {
             display: block; }
-        .header__top .menu__item:nth-child(3):hover:after {
+        .header__top .menu__item:nth-child(3):hover .menu__link:after {
           color: #1B689B;
           content: '\ea6a'; }
     .header__top .menu__btn {
