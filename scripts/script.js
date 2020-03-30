@@ -101,6 +101,17 @@ $(document).ready(function(){
     $('#nav-icon1').click(function(){
         $(this).toggleClass('open');
         $('.menu').toggleClass('open-menu');
+
+        //click outside menu
+        const mobMenu = document.querySelector(".open-menu");
+
+        document.addEventListener("click", function(event) {
+            if (event.target.closest(".open-menu")) return;
+            mobMenu.classList.remove("open-menu");
+            $('#nav-icon1').removeClass('open');
+            $('.dd-btnDvn2').hasClass('hidden')  &&  toggleMenu(2,'.languages');
+            $('.dd-btnDvn1').hasClass('hidden')  &&  toggleMenu(1,'.projects');
+        });
     });
 
     $('.dd-btnTop1,.dd-btnDvn1').click(function() {
@@ -121,15 +132,7 @@ function toggleMenu(arrowNum, menuName){
         $(menuName).toggleClass('close');
 }
 
-//click outside menu
-const mobMenu = document.querySelector(".open-menu");
 
-document.addEventListener("click", function(event) {
-    if (event.target.closest(".open-menu")) return;
-    mobMenu.classList.remove("open-menu");
-    $('.dd-btnDvn2').hasClass('hidden')  &&  toggleMenu(2,'.languages');
-    $('.dd-btnDvn1').hasClass('hidden')  &&  toggleMenu(1,'.projects');
-});
 
 //height mobile menu
 let vh = window.innerHeight * 0.01;

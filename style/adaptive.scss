@@ -134,7 +134,7 @@ $active-color: #3199DB;
         transform: none;
         box-shadow: none;
         border-left: 2px solid $active-color;
-        margin-top: 8px;
+        margin: 8px 0;
         opacity: 1;
         transition: opacity 1s;
         &__bridge {
