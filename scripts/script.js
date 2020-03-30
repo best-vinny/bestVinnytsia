@@ -1,4 +1,4 @@
-$(".two-slide-slider").slick({
+$(".two-slide-slider").slick({   //about us
     speed:1000,
     infinite: false,
     // centerMode:true,
@@ -103,21 +103,54 @@ $(document).ready(function(){
         $('.menu').toggleClass('open-menu');
     });
 
-    $('.mobile-dd').click(function(){
-      $(this).toggleClass('open');
+    $('.dd-btnTop1,.dd-btnDvn1').click(function() {
+        toggleMenu(1,'.projects');
+        $('.dd-btnDvn2').hasClass('hidden')  &&  toggleMenu(2,'.languages'); //close other arrow
     });
+
+    $('.dd-btnTop2,.dd-btnDvn2').click(function() {
+        toggleMenu(2,'.languages');
+        $('.dd-btnDvn1').hasClass('hidden')  &&  toggleMenu(1,'.projects');
+    })
+
 });
 
+function toggleMenu(arrowNum, menuName){
+        $(`.dd-btnTop${arrowNum}`).toggleClass('hidden');
+        $(`.dd-btnDvn${arrowNum}`).toggleClass('hidden');
+        $(menuName).toggleClass('close');
+}
 
+//click outside menu
+const mobMenu = document.querySelector(".open-menu");
 
+document.addEventListener("click", function(event) {
+    if (event.target.closest(".open-menu")) return;
+    mobMenu.classList.remove("open-menu");
+    $('.dd-btnDvn2').hasClass('hidden')  &&  toggleMenu(2,'.languages');
+    $('.dd-btnDvn1').hasClass('hidden')  &&  toggleMenu(1,'.projects');
+});
+
+//height mobile menu
 let vh = window.innerHeight * 0.01;
-// Then we set the value in the --vh custom property to the root of the document
 document.documentElement.style.setProperty('--vh', `${vh}px`);
 
-// We listen to the resize event
 window.addEventListener('resize', () => {
-    // We execute the same script as before
     let vh = window.innerHeight * 0.01;
     document.documentElement.style.setProperty('--vh', `${vh}px`);
 });
+
+
+// delete hover and add arrows for drop down menu in mobile
+window.onload = goToAdaptiveChange;
+function goToAdaptiveChange(){
+   const width = window.outerWidth;
+   width<= 900 && toMobile();
+}
+
+function toMobile(){
+    $('.hover-dd').removeClass("hover-dd");
+    $('.mobile-dd').removeClass('hidden');
+}
+
 

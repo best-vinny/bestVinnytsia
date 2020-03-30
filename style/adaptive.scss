@@ -1,21 +1,32 @@
-$active-color: #3199DB;;
+$active-color: #3199DB;
+;
 
-@media(max-width:1200px ){
+@media(max-width: 1500px) {
   .header__top .menu {
-    margin-right: 0;
-    width: 100%;
-    justify-content: center;
-    &__item{
-      padding: 0 20px;
+
+
+    &__item {
+      padding: 0 0.6vw;
+      min-width: 95px;
     }
   }
 }
 
-@media( max-width:900px ){
-  .header__top{
+@media(max-width: 1300px) {
+  .header__top .menu {
+    width: 70%;
+
+    .menu__item:last-child{
+      margin-left: 15%;
+    }
+  }
+}
+
+@media(max-width: 1080px) {
+  .header__top {
     z-index: 1000;
 
-    .menu{
+    .menu {
       justify-content: flex-end;
       padding: 47px 27px 0 37px;
       display: block;
@@ -23,13 +34,14 @@ $active-color: #3199DB;;
       width: 242px;
 
 
-      &__item{
+      &__item {
         display: none;
       }
-      &__btn{
+
+      &__btn {
         display: block;
         position: fixed;
-        top:-30px;
+        top: -30px;
         right: 30px;
 
         #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
@@ -100,95 +112,132 @@ $active-color: #3199DB;;
           -o-transform: rotate(-135deg);
           transform: rotate(-135deg);
         }
-
       }
     }
-    .open-menu{
-      background: #fff;
 
+    .hidden{
+      display: none;
+    }
+
+    .open-menu {
+      background: #fff;
       height: calc(var(--vh, 1vh) * 100);
-      top:80px;
-      left:0;
+      top: 80px;
+      left: 0;
       z-index: 999;
 
-      .menu__item{
+      .dd-menu {
+        display: block;
+        position: initial;
+        left: 0;
+        top: 0;
+        transform: none;
+        box-shadow: none;
+        border-left: 2px solid $active-color;
+        margin-top: 8px;
+        opacity: 1;
+        transition: opacity 1s;
+        &__bridge {
+          display: none;
+        }
+
+        &__item {
+          display: block;
+          text-align: left;
+          padding: 8px 7px;
+
+          &:nth-child(2) {
+            padding: 0 7px 8px;
+          }
+
+          &:last-child {
+            margin-left: 0;
+          }
+
+          .dd-menu__link {
+            font-size: 24px;
+            line-height: 1;
+          }
+        }
+      }
+      .close{
+        opacity: 0;
+        .dd-menu__item{
+          display: none;
+        }
+      }
+
+      .menu__item {
         display: block;
         padding: 0 0 18px;
         text-align: left;
 
-        .menu__link{
+        .menu__link {
           font-weight: 600;
           font-size: 24px;
           line-height: 28px;
         }
-        &:nth-child(3){
+
+        .mobile-dd,  .mobile-dd_active{
+          font-family: IcoFont;
+          font-size: 40px;
+          vertical-align: middle;
+        }
+
+        .mobile-dd_active{
+          color: $active-color;
+        }
+
+        &:nth-child(3) {
           position: relative;
+          padding: 0;
 
-          .menu__link{
-            padding-right: 0;
-            &:after {
-              top:3px;
-              position: absolute;
-              right:-50px;
-              font-size: 40px;
+          &:hover{
+            .dd-menu{
+
             }
           }
-          .mobile-dd {
-            pointer-events: none;
 
-            &:after{
-              pointer-events: all;
-            }
+          .dd-menu{
+            display: block;
           }
+          
 
 
           .menu__link {
-            color: inherit;
-          }
-            &:hover{
-              .dd-menu{
-                position: initial;
-                left: 0;
-                top: 0;
-                transform: none;
-                box-shadow: none;
-                z-index: 1000000;
-                border-left: 2px solid $active-color ;
-                margin-top: 18px;
+            padding-right: 0;
 
-
-                &__bridge{
-                  display: none;
-                }
-
-                &__item{
-                    text-align: left;
-                    padding: 8px 7px ;
-
-                  &:nth-child(2){
-                    padding: 0 7px 8px;
-                  }
-
-                  &:last-child{
-                    padding: 8px 7px 0;
-                  }
-
-                .dd-menu__link{
-                  font-size: 24px;
-                  line-height: 1;
-
-                }
-                }
-              }
+            &:after {
+              top: 3px;
+              position: absolute;
+              right: -50px;
+              font-size: 0;
+            }
           }
         }
 
-
+        &:last-child{
+          position: absolute;
+          bottom: 70px;
+          margin-left: 0;
+        }
       }
 
+      .change-lang {
+        .dd-menu{
+          &__item{
+            padding-bottom: 8px;
+          }
+        }
+      }
     }
+
     .change-lang {
       display: none;
+
+      .lang:after{
+        font-size: 0;
+      }
     }
   }
 

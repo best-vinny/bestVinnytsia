@@ -154,7 +154,7 @@ $main-red: #FF0000;
 
     .menu {
       margin-right: 80px;
-      width: 44%;
+      width: 63%;
       display: flex;
       justify-content: space-between;
       align-items: center;
@@ -174,47 +174,51 @@ $main-red: #FF0000;
           }
         }
 
-        &:nth-child(3) {
+        &:last-child{
+          margin-left: 20%;
+        }
+      }
+
+      .hover-dd {
+        position: relative;
+
+        .menu__link {
           position: relative;
+          padding-right: 15px;
+          &:after {
+            position: absolute;
+            content: "\ea67";
+            font-family: "IcoFont";
+            font-size: 20px;
+            cursor: pointer;
 
-          .menu__link {
-            position: relative;
-            padding-right: 15px;
-            &:after {
-              position: absolute;
-              content: "\ea67";
-              font-family: "IcoFont";
-              font-size: 20px;
-              cursor: pointer;
+            right: -10px;
+            top:calc(50% - 8px);
+          }
+        }
 
-              right: -10px;
-              top:calc(50% - 8px);
+
+
+        &:hover {
+          //padding: 10px 0;
+
+          .dd-menu {
+            opacity: 1;
+            transition: opacity 1s;
+            z-index: 3;
+            &__item{
+              display: block;
             }
           }
-
-
-
-          &:hover {
-            //padding: 10px 0;
-
-            .dd-menu {
-              opacity: 1;
-              transition: opacity 1s;
-              z-index: 3;
-                &__item{
-                  display: block;
-                }
-            }
-            .menu__link {
-              &:after {
-                color: $hover-text-color;
-                content: '\ea6a';
-                
-              }
+          .menu__link {
+            &:after {
+              color: $hover-text-color;
+              content: '\ea6a';
             }
           }
         }
       }
+
       &__btn{
         display: none;
       }
@@ -224,6 +228,26 @@ $main-red: #FF0000;
     .change-lang {
       position: relative;
 
+      .lang {
+        text-transform: uppercase;
+
+        &:after {
+          content: '\ea67';
+          font-family: "IcoFont";
+          font-size: 20px;
+          cursor: pointer;
+          vertical-align: middle;
+        }
+
+        &:hover {
+          color: $hover-text-color;
+          cursor: pointer;
+        }
+      }
+    }
+
+
+    .hover-dd{
       &:hover {
         padding: 10px 0;
 
@@ -236,28 +260,9 @@ $main-red: #FF0000;
           }
         }
 
-        .lang:before {
+        .lang:after {
           color: $hover-text-color;
-          content: '\ea67';
-        }
-      }
-
-
-      .lang {
-        text-transform: uppercase;
-
-        &:before {
-          content: "\ea6a";
-          font-family: "IcoFont";
-          font-size: 20px;
-          cursor: pointer;
-        }
-
-        &:hover {
-          color: $hover-text-color;
-          cursor: pointer;
-
-
+          content: '\ea6a';
         }
       }
     }

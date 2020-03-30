@@ -1,14 +1,15 @@
-@media (max-width: 1200px) {
-  .header__top .menu {
-    margin-right: 0;
-    width: 100%;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    justify-content: center; }
-    .header__top .menu__item {
-      padding: 0 20px; } }
+@media (max-width: 1500px) {
+  .header__top .menu__item {
+    padding: 0 0.6vw;
+    min-width: 95px; } }
 
-@media (max-width: 900px) {
+@media (max-width: 1300px) {
+  .header__top .menu {
+    width: 70%; }
+    .header__top .menu .menu__item:last-child {
+      margin-left: 15%; } }
+
+@media (max-width: 1080px) {
   .header__top {
     z-index: 1000; }
     .header__top .menu {
@@ -83,12 +84,47 @@
           -o-transform: rotate(-135deg);
           -ms-transform: rotate(-135deg);
           transform: rotate(-135deg); }
+    .header__top .hidden {
+      display: none; }
     .header__top .open-menu {
       background: #fff;
       height: calc(var(--vh, 1vh) * 100);
       top: 80px;
       left: 0;
       z-index: 999; }
+      .header__top .open-menu .dd-menu {
+        display: block;
+        position: initial;
+        left: 0;
+        top: 0;
+        -webkit-transform: none;
+        -ms-transform: none;
+        transform: none;
+        -webkit-box-shadow: none;
+        box-shadow: none;
+        border-left: 2px solid #3199DB;
+        margin-top: 8px;
+        opacity: 1;
+        -webkit-transition: opacity 1s;
+        -o-transition: opacity 1s;
+        transition: opacity 1s; }
+        .header__top .open-menu .dd-menu__bridge {
+          display: none; }
+        .header__top .open-menu .dd-menu__item {
+          display: block;
+          text-align: left;
+          padding: 8px 7px; }
+          .header__top .open-menu .dd-menu__item:nth-child(2) {
+            padding: 0 7px 8px; }
+          .header__top .open-menu .dd-menu__item:last-child {
+            margin-left: 0; }
+          .header__top .open-menu .dd-menu__item .dd-menu__link {
+            font-size: 24px;
+            line-height: 1; }
+      .header__top .open-menu .close {
+        opacity: 0; }
+        .header__top .open-menu .close .dd-menu__item {
+          display: none; }
       .header__top .open-menu .menu__item {
         display: block;
         padding: 0 0 18px;
@@ -97,44 +133,31 @@
           font-weight: 600;
           font-size: 24px;
           line-height: 28px; }
+        .header__top .open-menu .menu__item .mobile-dd, .header__top .open-menu .menu__item .mobile-dd_active {
+          font-family: IcoFont;
+          font-size: 40px;
+          vertical-align: middle; }
+        .header__top .open-menu .menu__item .mobile-dd_active {
+          color: #3199DB; }
         .header__top .open-menu .menu__item:nth-child(3) {
-          position: relative; }
+          position: relative;
+          padding: 0; }
+          .header__top .open-menu .menu__item:nth-child(3) .dd-menu {
+            display: block; }
           .header__top .open-menu .menu__item:nth-child(3) .menu__link {
             padding-right: 0; }
             .header__top .open-menu .menu__item:nth-child(3) .menu__link:after {
               top: 3px;
               position: absolute;
               right: -50px;
-              font-size: 40px; }
-          .header__top .open-menu .menu__item:nth-child(3) .mobile-dd {
-            pointer-events: none; }
-            .header__top .open-menu .menu__item:nth-child(3) .mobile-dd:after {
-              pointer-events: all; }
-          .header__top .open-menu .menu__item:nth-child(3) .menu__link {
-            color: inherit; }
-          .header__top .open-menu .menu__item:nth-child(3):hover .dd-menu {
-            position: initial;
-            left: 0;
-            top: 0;
-            -webkit-transform: none;
-            -ms-transform: none;
-            transform: none;
-            -webkit-box-shadow: none;
-            box-shadow: none;
-            z-index: 1000000;
-            border-left: 2px solid #3199DB;
-            margin-top: 18px; }
-            .header__top .open-menu .menu__item:nth-child(3):hover .dd-menu__bridge {
-              display: none; }
-            .header__top .open-menu .menu__item:nth-child(3):hover .dd-menu__item {
-              text-align: left;
-              padding: 8px 7px; }
-              .header__top .open-menu .menu__item:nth-child(3):hover .dd-menu__item:nth-child(2) {
-                padding: 0 7px 8px; }
-              .header__top .open-menu .menu__item:nth-child(3):hover .dd-menu__item:last-child {
-                padding: 8px 7px 0; }
-              .header__top .open-menu .menu__item:nth-child(3):hover .dd-menu__item .dd-menu__link {
-                font-size: 24px;
-                line-height: 1; }
+              font-size: 0; }
+        .header__top .open-menu .menu__item:last-child {
+          position: absolute;
+          bottom: 70px;
+          margin-left: 0; }
+      .header__top .open-menu .change-lang .dd-menu__item {
+        padding-bottom: 8px; }
     .header__top .change-lang {
-      display: none; } }
+      display: none; }
+      .header__top .change-lang .lang:after {
+        font-size: 0; } }
