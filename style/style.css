@@ -157,7 +157,6 @@ h1, h2, h3, h4, h5, h6, button {
     .header__top .menu .hover-dd {
       position: relative; }
       .header__top .menu .hover-dd .menu__link {
-        position: relative;
         padding-right: 15px; }
         .header__top .menu .hover-dd .menu__link:after {
           position: absolute;
@@ -379,6 +378,8 @@ h1, h2, h3, h4, h5, h6, button {
           flex-grow: 1; }
       .main .section-body .two-slide-slider .two-slide-slider__slide .two-slide-slider__empty-map {
         max-width: 100%; }
+    .main .section-body .two-slide-slider .slick-dots button {
+      font-size: 0; }
 
 .main .about-us .checkbox {
   display: -webkit-box;
@@ -387,7 +388,7 @@ h1, h2, h3, h4, h5, h6, button {
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  margin-right: 50px; }
+  margin: 0 0 25px; }
   .main .about-us .checkbox input[type="checkbox"] {
     display: none; }
     .main .about-us .checkbox input[type="checkbox"]:checked + label:after {
@@ -426,7 +427,8 @@ h1, h2, h3, h4, h5, h6, button {
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
     -ms-flex-direction: column;
-    flex-direction: column; }
+    flex-direction: column;
+    padding-top: 50px; }
     .main .about-us .section-body .section-description .section-text {
       position: relative;
       z-index: 1;

@@ -1,6 +1,7 @@
 $(".two-slide-slider").slick({   //about us
     speed:1000,
     infinite: false,
+    dots:true
     // centerMode:true,
 });
 
@@ -157,3 +158,6 @@ function toMobile(){
 }
 
 
+for(let i = 0; i< requests.length; i++){
+    PARSE()
+}

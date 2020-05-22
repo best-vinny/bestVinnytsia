@@ -183,7 +183,6 @@ $main-red: #FF0000;
         position: relative;
 
         .menu__link {
-          position: relative;
           padding-right: 15px;
           &:after {
             position: absolute;
@@ -191,12 +190,15 @@ $main-red: #FF0000;
             font-family: "IcoFont";
             font-size: 20px;
             cursor: pointer;
-
             right: -10px;
             top:calc(50% - 8px);
+
+
           }
         }
+        .menu__link:hover + .dd-menu{
 
+        }
 
 
         &:hover {
@@ -466,6 +468,9 @@ $main-red: #FF0000;
           max-width: 100%;
         }
       }
+      .slick-dots button{
+         font-size: 0;
+       }
     }
   }
 
@@ -474,7 +479,7 @@ $main-red: #FF0000;
     .checkbox{
       display: flex;
       justify-content: flex-end;
-      margin-right: 50px;
+      margin: 0 0 25px;
 
       input[type="checkbox"]{
         display: none;
@@ -515,6 +520,7 @@ $main-red: #FF0000;
         max-width: 460px;
         display: flex;
         flex-direction: column;
+        padding-top: 50px;
         .section-text {
           position: relative;
           z-index: 1;
