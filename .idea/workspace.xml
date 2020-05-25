@@ -7,6 +7,8 @@
       <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/adaptive.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/adaptive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/adaptive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/adaptive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/sliders.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/sliders.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/sliders.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/sliders.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.scss" afterDir="false" />
     </list>
@@ -66,7 +68,9 @@
       <workItem from="1584988372193" duration="8365000" />
       <workItem from="1585311868212" duration="55178000" />
       <workItem from="1585767854490" duration="368000" />
-      <workItem from="1589913682971" duration="15933000" />
+      <workItem from="1589913682971" duration="17618000" />
+      <workItem from="1590244505124" duration="8408000" />
+      <workItem from="1590332040923" duration="20047000" />
     </task>
     <task id="LOCAL-00001" summary="header">
       <created>1583622572061</created>

@@ -12,14 +12,17 @@ $('.power-slider').slick({
     centerPadding: 0,
     dots: true,
     waitForAnimate: true,
-    infinite: false
+    infinite: false,
+    autoplay: true,
+    autoplaySpeed: 8000
 });
 
 $('.projects-logo-slider').slick({
     slidesToShow: 3,
     slidesToScroll:1,
     speed:300,
-    // autoplay: true,
+    autoplay: false,
+    autoplaySpeed: 8000,
     centerMode: true,
     focusOnSelect: true,
     // pauseOnHover: true,
@@ -27,6 +30,16 @@ $('.projects-logo-slider').slick({
     draggable: false,
     waitForAnimate: false,
     asNavFor: '.current-projects-slider',
+    responsive:[
+        {
+            breakpoint:1080,
+            settings:{
+                slidesToShow: 1,
+                dots: true,
+            }
+        }
+    ]
+
 });
 
 
@@ -37,6 +50,25 @@ $('.current-projects-slider').slick({
     swipe: false,
     touchMove: false,
     fade: true,
+    autoplay: false,
+    adaptiveHeight: true,
+
+});
+
+$('.current-project__content').slick({
+    slidesToShow: 2,
+    arrows: false,
+    responsive:[
+        {
+            breakpoint:900,
+            settings:{
+                slidesToShow: 1,
+                arrows:true,
+                infinite: false,
+                dots: true
+            }
+        }
+    ]
 });
 
 $('.project-main-photo').slick({
@@ -49,6 +81,9 @@ $('.project-main-photo').slick({
 });
 
 
+
+
+
 $('.project-photo-nav').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -58,13 +93,22 @@ $('.project-photo-nav').slick({
     arrows: false,
     vertical: true,
     verticalSwiping: true,
-    autoplay: true,
+    autoplay: false,
     pauseOnHover: true,
     pauseOnFocus: true,
     focusOnSelect: true,
     draggable: false,
     swipe: false,
     touchMove: false,
+    responsive:[
+        {
+            breakpoint:900,
+            settings:{
+                 vertical: false,
+                // verticalSwiping: false,
+            }
+        }
+    ]
 });
 
 const checkboxAll = document.querySelector('.all');

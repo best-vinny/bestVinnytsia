@@ -974,6 +974,7 @@ $main-red: #FF0000;
 
                 img {
                   width: 100%;
+
                 }
               }
             }
@@ -981,6 +982,13 @@ $main-red: #FF0000;
           }
         }
       }
+
+      .current-project__content> .slick-list> .slick-track{
+          display: flex;
+          align-items: center;
+        }
+
+
 
       .ebec {
         background: $main-orange;
@@ -1116,14 +1124,14 @@ $main-red: #FF0000;
                 }
               }
             }
-            //.project-data__text{
-            //  &::-webkit-scrollbar {
-            //    background: rgba(243, 197, 40, 0.34);
-            //  }
-            //  &::-webkit-scrollbar-thumb {
-            //    background: #F3C528;
-            //  }
-            //}
+            .project-data__text{
+              &::-webkit-scrollbar {
+                background: rgba(243, 197, 40, 0.34);
+              }
+              &::-webkit-scrollbar-thumb {
+                background: #F3C528;
+              }
+            }
           }
         }
       }

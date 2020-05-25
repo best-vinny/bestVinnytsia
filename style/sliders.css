@@ -105,19 +105,53 @@
 .project-photo-nav .slick-track {
   display: block; }
 
-.ebec .slick-current .overlay-photo {
+.ebec .project-photo-nav .slick-current .overlay-photo {
   background: rgba(255, 166, 21, 0.63); }
 
-.jf .slick-current .overlay-photo {
+.jf .project-photo-nav .slick-current .overlay-photo {
   background: -webkit-linear-gradient(317.32deg, rgba(167, 95, 255, 0.63) 15.76%, rgba(121, 189, 255, 0.63) 92.62%);
   background: -o-linear-gradient(317.32deg, rgba(167, 95, 255, 0.63) 15.76%, rgba(121, 189, 255, 0.63) 92.62%);
   background: linear-gradient(132.68deg, rgba(167, 95, 255, 0.63) 15.76%, rgba(121, 189, 255, 0.63) 92.62%); }
 
-.ir .slick-current .overlay-photo {
+.ir .project-photo-nav .slick-current .overlay-photo {
   background: rgba(253, 51, 51, 0.63); }
 
-.sc .slick-current .overlay-photo {
+.sc .project-photo-nav .slick-current .overlay-photo {
   background: rgba(243, 197, 40, 0.63); }
 
-.btw .slick-current .overlay-photo {
+.btw .project-photo-nav .slick-current .overlay-photo {
   background: rgba(255, 166, 21, 0.63); }
+
+.main .projects .current-projects-slider .current-project__content {
+  -webkit-box-align: initial !important;
+  -ms-flex-align: initial !important;
+  align-items: initial !important; }
+
+.current-project__content {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .current-project__content .slick-prev {
+    left: 0; }
+  .current-project__content .slick-next {
+    right: 45px; }
+  .current-project__content .slick-dots {
+    padding-top: 20px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center; }
+    .current-project__content .slick-dots button {
+      margin: 0 7px;
+      font-size: 0;
+      width: 7px;
+      height: 7px;
+      background: rgba(49, 153, 219, 0.54);
+      border-radius: 50%; }
+    .current-project__content .slick-dots .slick-active button {
+      width: 12px;
+      height: 12px;
+      background: #3199db; }
