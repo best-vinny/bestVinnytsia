@@ -28,7 +28,7 @@ $('.projects-logo-slider').slick({
     // pauseOnHover: true,
     // pauseOnFocus: true,
     draggable: false,
-    waitForAnimate: false,
+    // waitForAnimate: false,
     asNavFor: '.current-projects-slider',
     responsive:[
         {
@@ -44,6 +44,7 @@ $('.projects-logo-slider').slick({
 
 
 $('.current-projects-slider').slick({
+    speed:300,
     slidesToShow: 1,
     arrows: false,
     draggable: false,

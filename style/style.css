@@ -882,13 +882,11 @@ h1, h2, h3, h4, h5, h6, button {
     align-items: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
-    margin: 0 auto;
     padding: 100px 0 200px; }
     .main .partners-list .partner-item {
-      min-width: 200px;
+      /*min-width: 200px;*/
       margin: 50px;
-      width: 30%;
-      max-width: 350px; }
+      /*max-width: 350px;*/ }
       .main .partners-list .partner-item:hover img {
         -webkit-transform: scale(1.2);
         -ms-transform: scale(1.2);
@@ -898,10 +896,10 @@ h1, h2, h3, h4, h5, h6, button {
         transition: .5s; }
       .main .partners-list .partner-item img {
         display: block;
-        margin: 0 auto;
         -webkit-transition: .5s;
         -o-transition: .5s;
-        transition: .5s; }
+        transition: .5s;
+        width: 100%; }
 
 .main .board .section-body {
   display: -webkit-box;
@@ -925,6 +923,8 @@ h1, h2, h3, h4, h5, h6, button {
   -webkit-transition: .5s;
   -o-transition: .5s;
   transition: .5s; }
+  .main .board-item img {
+    min-width: 100%; }
   .main .board-item:hover {
     z-index: 200;
     -webkit-transform: scale(1.2);

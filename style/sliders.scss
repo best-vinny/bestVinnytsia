@@ -173,6 +173,14 @@ $main-red: #FF0000;
         background: rgba(255, 166, 21, 0.63);
       }
     }
+    .slick-dots{
+      button{
+        background: rgba(234, 164, 50, 0.6);
+        .slick-active button{
+          background: rgba(234, 164, 50, 1);
+        }
+      }
+    }
   }
 }
 
@@ -245,14 +253,48 @@ $main-red: #FF0000;
       font-size: 0;
       width: 7px;
       height: 7px;
-      background: rgba(49, 153, 219, 0.54);
+      //background: rgba(49, 153, 219, 0.54);
       border-radius: 50%;
     }
 
     .slick-active button {
       width: 12px;
       height: 12px;
-      background: rgba(49, 153, 219, 1);
+      //background: rgba(49, 153, 219, 1);
+    }
+  }
+}
+
+
+
+.ebec, .btw, .sc {
+  .slick-dots{
+    button{
+      background: lighten($main-orange, 0.5);
+      .slick-active button{
+        background: $main-orange;
+      }
+    }
+  }
+}
+.jf {
+  .slick-dots{
+    button{
+      background: lighten($main-pink, 0.5);
+      .slick-active button{
+        background: $main-pink;
+      }
+    }
+  }
+}
+
+.ir {
+  .slick-dots{
+    button{
+      background: lighten($main-red, 0.5);
+      .slick-active button{
+        background: $main-red;
+      }
     }
   }
 }

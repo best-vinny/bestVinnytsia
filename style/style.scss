@@ -1146,28 +1146,34 @@ $main-red: #FF0000;
       align-items: center;
       flex-wrap: wrap;
 
-      margin: 0 auto ;
+
       padding: 100px 0 200px;
+
       .partner-item{
-        min-width: 200px;
+        /*min-width: 200px;*/
         margin: 50px ;
-        width: 30%;
-        max-width: 350px;
+        //width: 30%;
+        /*max-width: 350px;*/
         &:hover{
           img{
+
             transform: scale(1.2);
             transition: .5s;
+
           }
         }
 
         img{
           display: block;
-          margin: 0 auto;
+          //margin: 0 auto;
           transition: .5s;
+          width: 100%;
         }
       }
     }
   }
+
+
   .board{
     .section-body{
       display: flex;
@@ -1182,6 +1188,10 @@ $main-red: #FF0000;
       margin: 22px 0;
       position: relative;
       transition: .5s;
+
+      img{
+        min-width: 100%;
+      }
 
       &:hover{
         z-index: 200;
@@ -1199,6 +1209,7 @@ $main-red: #FF0000;
         }
       }
     }
+
     &-description{
       position: absolute;
       bottom: 0;

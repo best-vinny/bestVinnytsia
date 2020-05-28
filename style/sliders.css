@@ -108,6 +108,11 @@
 .ebec .project-photo-nav .slick-current .overlay-photo {
   background: rgba(255, 166, 21, 0.63); }
 
+.ebec .project-photo-nav .slick-dots button {
+  background: rgba(234, 164, 50, 0.6); }
+  .ebec .project-photo-nav .slick-dots button .slick-active button {
+    background: #eaa432; }
+
 .jf .project-photo-nav .slick-current .overlay-photo {
   background: -webkit-linear-gradient(317.32deg, rgba(167, 95, 255, 0.63) 15.76%, rgba(121, 189, 255, 0.63) 92.62%);
   background: -o-linear-gradient(317.32deg, rgba(167, 95, 255, 0.63) 15.76%, rgba(121, 189, 255, 0.63) 92.62%);
@@ -149,9 +154,22 @@
       font-size: 0;
       width: 7px;
       height: 7px;
-      background: rgba(49, 153, 219, 0.54);
       border-radius: 50%; }
     .current-project__content .slick-dots .slick-active button {
       width: 12px;
-      height: 12px;
-      background: #3199db; }
+      height: 12px; }
+
+.ebec .slick-dots button, .btw .slick-dots button, .sc .slick-dots button {
+  background: #ffa718; }
+  .ebec .slick-dots button .slick-active button, .btw .slick-dots button .slick-active button, .sc .slick-dots button .slick-active button {
+    background: #FFA615; }
+
+.jf .slick-dots button {
+  background: #e158e3; }
+  .jf .slick-dots button .slick-active button {
+    background: #E156E3; }
+
+.ir .slick-dots button {
+  background: #ff0303; }
+  .ir .slick-dots button .slick-active button {
+    background: #FF0000; }
