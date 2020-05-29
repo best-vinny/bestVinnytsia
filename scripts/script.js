@@ -13,7 +13,7 @@ $('.power-slider').slick({
     dots: true,
     waitForAnimate: true,
     infinite: false,
-    autoplay: true,
+    autoplay: false,//true
     autoplaySpeed: 8000
 });
 
@@ -36,6 +36,7 @@ $('.projects-logo-slider').slick({
             settings:{
                 slidesToShow: 1,
                 dots: true,
+                centerMode: false
             }
         }
     ]

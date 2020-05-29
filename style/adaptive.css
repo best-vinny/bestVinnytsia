@@ -350,7 +350,58 @@
     -ms-flex-pack: center;
     justify-content: center; } }
 
+@media (max-width: 600px) {
+  .about-us .section-body .checkbox {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column; }
+    .about-us .section-body .checkbox label {
+      padding: 10px 25px; }
+  .main .section-body .two-slide-slider .two-slide-slider__slide .data-list__item .data-list__value {
+    font-size: 27px; }
+  .main .section-body .two-slide-slider .two-slide-slider__slide .data-list__photo-overlay img {
+    max-width: 100px; }
+  .main .our-power .power-slider .power-slide__content .power-slide__title {
+    font-size: 40px; }
+  .main .our-power .power-slider .power-slide__content .power-slide__text {
+    font-size: 20px; }
+  .footer .footer-data__text {
+    font-size: 20px; } }
+
 @media (max-width: 460px) {
+  .header-body__title {
+    font-size: 62px;
+    line-height: 78px; }
+  .header-body__sub-title {
+    padding-top: 30px;
+    padding-bottom: 50px; }
+  .main .section-top .section-header {
+    font-size: 38px; }
+  .main .about-us .section-body .section-description .section-text {
+    font-size: 20px; }
+  .main .section-body .two-slide-slider .two-slide-slider__slide .data-list__photo-overlay {
+    padding-left: 0; }
+  .main .section-body .two-slide-slider .two-slide-slider__slide .data-list__photo-overlay img {
+    max-width: 80px; }
+  .main .our-power .power-slider .power-slide__content .power-slide__title {
+    font-size: 30px;
+    line-height: 45px; }
+  .main .our-power .power-slider .power-slide:nth-child(1) .power-slide__title:after {
+    width: 47px;
+    height: 62px; }
+  .main .our-power .power-slider .power-slide:nth-child(2) .power-slide__title:after {
+    width: 70px;
+    height: 62px; }
+  .main .our-power .power-slider .power-slide:nth-child(3) .power-slide__title:after {
+    width: 70px;
+    height: 62px; }
+  .main .our-power .power-slider .power-slide:nth-child(4) .power-slide__title:after {
+    width: 57px;
+    height: 57px; }
+  .main .our-power .power-slider .power-slide:nth-child(5) .power-slide__title:after {
+    width: 68px;
+    height: 56px; }
   .partners {
     padding-top: 180px; }
     .partners-list {
