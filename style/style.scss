@@ -38,7 +38,7 @@ $main-red: #FF0000;
 }
 
 .container {
-  max-width: 1440px;
+  max-width: 1740px;
   margin: 0 auto;
 }
 
@@ -192,18 +192,14 @@ $main-red: #FF0000;
             cursor: pointer;
             right: -10px;
             top:calc(50% - 8px);
-
-
           }
         }
         .menu__link:hover + .dd-menu{
-
         }
 
 
         &:hover {
           //padding: 10px 0;
-
           .dd-menu {
             opacity: 1;
             transition: opacity 1s;
@@ -985,6 +981,7 @@ $main-red: #FF0000;
 
       .current-project__content> .slick-list> .slick-track{
           display: flex;
+        justify-content: center;
           align-items: center;
         }
 
@@ -1145,7 +1142,8 @@ $main-red: #FF0000;
       justify-content: center;
       align-items: center;
       flex-wrap: wrap;
-
+      margin: 0 auto;
+      max-width: 1300px;
 
       padding: 100px 0 200px;
 
@@ -1183,6 +1181,7 @@ $main-red: #FF0000;
       width: 65%;
       margin: 0 auto;
       padding: 100px 0 140px ;
+      max-width: 910px;
     }
     &-item{
       margin: 22px 0;

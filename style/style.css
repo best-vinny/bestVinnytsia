@@ -23,7 +23,7 @@ h1, h2, h3, h4, h5, h6, button {
   color: #FF0000; }
 
 .container {
-  max-width: 1440px;
+  max-width: 1740px;
   margin: 0 auto; }
 
 .hidden {
@@ -771,6 +771,9 @@ h1, h2, h3, h4, h5, h6, button {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center; }
@@ -882,6 +885,8 @@ h1, h2, h3, h4, h5, h6, button {
     align-items: center;
     -ms-flex-wrap: wrap;
     flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1300px;
     padding: 100px 0 200px; }
     .main .partners-list .partner-item {
       /*min-width: 200px;*/
@@ -915,7 +920,8 @@ h1, h2, h3, h4, h5, h6, button {
   flex-wrap: wrap;
   width: 65%;
   margin: 0 auto;
-  padding: 100px 0 140px; }
+  padding: 100px 0 140px;
+  max-width: 910px; }
 
 .main .board-item {
   margin: 22px 0;

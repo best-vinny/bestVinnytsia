@@ -124,7 +124,9 @@
       .projects-logo-slider .slick-dots .slick-active button {
         width: 12px;
         height: 12px;
-        background: #3199db; } }
+        background: #3199db; }
+  .board .section-body {
+    width: initial; } }
 
 @media (max-width: 1080px) {
   .header__top {

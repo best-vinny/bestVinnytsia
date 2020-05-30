@@ -138,6 +138,11 @@ $active-color: #3199DB;
     }
   }
 
+  .board{
+    .section-body{
+      width: initial;
+    }
+  }
 }
 
 @media(max-width: 1080px) {
