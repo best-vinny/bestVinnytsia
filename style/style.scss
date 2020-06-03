@@ -476,6 +476,7 @@ $main-red: #FF0000;
   }
 
   .about-us {
+    padding-top: 80px;
 
     .checkbox {
       display: flex;
@@ -764,6 +765,7 @@ $main-red: #FF0000;
   }
 
   .projects {
+    padding-top: 40px;
     .section-top {
       padding-bottom: 100px;
     }
@@ -1166,7 +1168,7 @@ $main-red: #FF0000;
   }
 
   .partners {
-    padding-top: 180px;
+    padding-top: 100px;
 
     &-list {
       display: flex;
@@ -1204,6 +1206,7 @@ $main-red: #FF0000;
 
 
   .board {
+    padding-top: 40px;
     .section-body {
       display: flex;
       justify-content: space-between;
@@ -1287,6 +1290,9 @@ $main-red: #FF0000;
   background: #424141;
   color: #fff;
 
+  &-data__text{
+    color:#fff;
+  }
   .section-top {
 
     .section-header {
