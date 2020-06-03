@@ -280,7 +280,7 @@
         font-size: 0; }
   .main .our-power .power-slider .power-slide__content {
     width: initial;
-    padding-bottom: 40px; }
+    padding: 40px 0; }
   .main .our-power .power-slider {
     padding-top: 0; }
   .main .our-power .power-slider .power-slide {
@@ -402,6 +402,10 @@
     font-size: 20px; }
   .main .projects .current-projects-slider .current-project__content {
     padding: 10px 20px 10px; }
+  .main .projects .projects-logo-slider .project-logo-item .project-logo {
+    max-height: 100px; }
+  .main .projects .current-projects-slider .current-project__content .slick-prev {
+    left: -15px; }
   .main .projects .current-projects-slider .btw .current-project__content .project-data__top {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }

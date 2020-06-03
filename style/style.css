@@ -317,7 +317,7 @@ h1, h2, h3, h4, h5, h6, button {
   .main .section-body .section-description {
     font-size: 29px;
     line-height: 34px;
-    text-align: justify; }
+    text-align: left; }
     .main .section-body .section-description .section-before {
       width: 50%;
       height: 8px;
@@ -395,6 +395,18 @@ h1, h2, h3, h4, h5, h6, button {
       display: none; }
       .main .about-us .checkbox input[type="checkbox"]:checked + label:after {
         background-image: url("../img/checkbox-on.svg"); }
+    .main .about-us .checkbox .vinny {
+      width: 250px;
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s;
+      left: 100px; }
+    .main .about-us .checkbox .hidden {
+      display: block;
+      font-size: 0;
+      -webkit-transition: .5s;
+      -o-transition: .5s;
+      transition: .5s; }
     .main .about-us .checkbox label {
       font-weight: 500;
       font-size: 25px;

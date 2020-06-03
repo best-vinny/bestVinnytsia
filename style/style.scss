@@ -387,7 +387,7 @@ $main-red: #FF0000;
     .section-description {
       font-size: 29px;
       line-height: 34px;
-      text-align: justify;
+      text-align: left;
       //width: 26%;
 
       .section-before {
@@ -461,7 +461,6 @@ $main-red: #FF0000;
             text-align: center;
             flex-grow: 1;
           }
-
         }
 
         .two-slide-slider__empty-map {
@@ -491,6 +490,19 @@ $main-red: #FF0000;
         }
       }
 
+      .vinny{
+        width: 250px;
+        transition: .5s;
+        left: 100px;
+      }
+
+      .hidden{
+        display: block;
+        font-size: 0;
+        transition: .5s;
+      }
+
+
       label {
         font-weight: 500;
         font-size: 25px;
@@ -498,6 +510,7 @@ $main-red: #FF0000;
         padding-right: 50px;
         cursor: pointer;
         transition: .5s;
+
 
         &:after {
           content: '';

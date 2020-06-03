@@ -360,7 +360,7 @@ $active-color: #3199DB;
 
   .main .our-power .power-slider .power-slide__content{
     width: initial;
-    padding-bottom: 40px;
+    padding: 40px 0;
   }
 
   .main .our-power .power-slider{
@@ -556,6 +556,14 @@ $active-color: #3199DB;
     padding: 10px 20px 10px;
   }
 
+  .main .projects .projects-logo-slider .project-logo-item .project-logo{
+    max-height: 100px;
+  }
+
+  .main .projects .current-projects-slider .current-project__content .slick-prev {
+    left: -15px;
+  }
+
   .main .projects .current-projects-slider .btw .current-project__content .project-data__top{
     flex-wrap: wrap;
   }
@@ -574,6 +582,7 @@ $active-color: #3199DB;
   .main .projects .current-projects-slider .current-project__content .project-data__text{
     font-size: 20px;
   }
+  
   .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .slick-list{
     width: 300px;
     //height: 80px;
