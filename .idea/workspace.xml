@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="741456da-e3a6-495b-8dc1-e535edfd617a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/adaptive.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/adaptive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/adaptive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/adaptive.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
@@ -68,7 +70,9 @@
       <workItem from="1590244505124" duration="8408000" />
       <workItem from="1590332040923" duration="20454000" />
       <workItem from="1590682700996" duration="13464000" />
-      <workItem from="1590866563258" duration="9091000" />
+      <workItem from="1590866563258" duration="23138000" />
+      <workItem from="1591117009301" duration="4771000" />
+      <workItem from="1591179796731" duration="1290000" />
     </task>
     <task id="LOCAL-00001" summary="header">
       <created>1583622572061</created>
@@ -109,6 +113,10 @@
       <screen x="0" y="0" width="1920" height="1050" />
     </state>
     <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1583622578729" />
+    <state x="1972" y="85" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591126914622">
+      <screen x="1920" y="0" width="1920" height="1050" />
+    </state>
+    <state x="1972" y="85" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591126914622" />
     <state x="600" y="141" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590078507751">
       <screen x="0" y="0" width="1920" height="1050" />
     </state>

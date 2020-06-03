@@ -79,7 +79,10 @@ $('.project-main-photo').slick({
     swipe: false,
     touchMove: false,
     fade: true,
-   autoplay: false
+    // autoplay: false,
+    speed:1000,
+    autoplay: true,
+    asNavFor:'.project-photo-nav'
 });
 
 
@@ -96,8 +99,8 @@ $('.project-photo-nav').slick({
     vertical: true,
     verticalSwiping: true,
     autoplay: false,
-    pauseOnHover: true,
-    pauseOnFocus: true,
+    pauseOnHover: false,
+    pauseOnFocus: false,
     focusOnSelect: true,
     draggable: false,
     swipe: false,
@@ -106,10 +109,32 @@ $('.project-photo-nav').slick({
         {
             breakpoint:900,
             settings:{
+                slidesToShow: 5,
                  vertical: false,
-                // verticalSwiping: false,
+                 verticalSwiping: false,
+
+            }
+        },
+
+        {
+            breakpoint:600,
+            settings:{
+                slidesToShow: 3,
+                vertical: false,
+                verticalSwiping: false,
+
             }
         }
+        // ,
+        // {
+        //     breakpoint:400,
+        //     settings:{
+        //         slidesToShow: 1,
+        //         vertical: false,
+        //         verticalSwiping: false,
+        //
+        //     }
+        // }
     ]
 });
 
@@ -152,13 +177,13 @@ $(document).ready(function(){
         //click outside menu
         const mobMenu = document.querySelector(".open-menu");
 
-        document.addEventListener("click", function(event) {
+        onclick =  function(event) {
             if (event.target.closest(".open-menu")) return;
             mobMenu.classList.remove("open-menu");
             $('#nav-icon1').removeClass('open');
             $('.dd-btnDvn2').hasClass('hidden')  &&  toggleMenu(2,'.languages');
             $('.dd-btnDvn1').hasClass('hidden')  &&  toggleMenu(1,'.projects');
-        });
+        };
     });
 
     $('.dd-btnTop1,.dd-btnDvn1').click(function() {
@@ -204,6 +229,6 @@ function toMobile(){
 }
 
 
-for(let i = 0; i< requests.length; i++){
-    PARSE()
-}
+// for(let i = 0; i< requests.length; i++){
+//     PARSE()
+// }

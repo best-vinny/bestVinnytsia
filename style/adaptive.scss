@@ -12,6 +12,12 @@ $active-color: #3199DB;
   }
 }
 
+@media(max-width: 1400px){
+  .main .our-power .power-slider .power-slide:nth-child(4) .power-slide__title:after{
+    display: none;
+  }
+}
+
 @media(max-width: 1300px) {
   .header__top .menu {
     width: 70%;
@@ -46,7 +52,6 @@ $active-color: #3199DB;
     flex-direction: column-reverse;
     justify-content: center;
     padding-top: 50px;
-
   }
 
   .main .section-body .two-slide-slider{
@@ -76,16 +81,6 @@ $active-color: #3199DB;
     }
   }
 
-  .main .our-power .power-slider .power-slide{
-    padding-top: 30px ;
-    justify-content: flex-end;
-  }
-
-  .main .our-power .power-slider .power-slide__content{
-    width: 100%;
-    max-width: 100%;
-    padding-bottom: 100px;
-  }
 
   .map-slide{
     flex-direction: column-reverse;
@@ -96,10 +91,7 @@ $active-color: #3199DB;
   .current-projects-slider>.slick-list>.slick-track{
     display: flex;
     align-items: flex-start;
-
   }
-
-
 
   .main .projects .current-projects-slider .current-project__content{
     padding: 30px ;
@@ -244,7 +236,7 @@ $active-color: #3199DB;
 
     .open-menu {
       background: #fff;
-      height: calc(var(--vh, 1vh) * 100);
+      height: calc(var(--vh, 1vh) * 100 - 80px);
       top: 80px;
       left: 0;
       z-index: 999;
@@ -285,6 +277,8 @@ $active-color: #3199DB;
       }
       .close{
         opacity: 0;
+        margin: 0;
+
         .dd-menu__item{
           display: none;
         }
@@ -303,8 +297,10 @@ $active-color: #3199DB;
 
         .mobile-dd,  .mobile-dd_active{
           font-family: IcoFont;
-          font-size: 40px;
+          font-size: 40px; //40
+          position: absolute;
           vertical-align: middle;
+          top: -2px;
         }
 
         .mobile-dd_active{
@@ -325,8 +321,6 @@ $active-color: #3199DB;
             display: block;
           }
 
-
-
           .menu__link {
             padding-right: 0;
 
@@ -341,7 +335,7 @@ $active-color: #3199DB;
 
         &:last-child{
           position: absolute;
-          bottom: 70px;
+          bottom: 0;
           margin-left: 0;
         }
       }
@@ -364,6 +358,11 @@ $active-color: #3199DB;
     }
   }
 
+  .main .our-power .power-slider .power-slide__content{
+    width: initial;
+    padding-bottom: 40px;
+  }
+
   .main .our-power .power-slider{
     padding-top: 0;
   }
@@ -375,6 +374,8 @@ $active-color: #3199DB;
   .main .our-power .power-slider .power-slide__photo{
     width: 100%;
   }
+
+
 
   .power-slider .slick-arrow{
     display: none !important;
@@ -398,6 +399,9 @@ $active-color: #3199DB;
     }
   }
 
+  .main .our-power .power-slider .power-slide:nth-child(4) .power-slide__title:after{
+    display: block;
+  }
 
   .main .board {
     .section-body {
@@ -469,6 +473,7 @@ $active-color: #3199DB;
   }
   .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav{
     width: auto;
+    margin: 10px auto 0;
   }
 
 
@@ -507,6 +512,13 @@ $active-color: #3199DB;
   }
   .header-body__title {
     line-height: 90px;
+  }
+
+  .header__top .open-menu .menu__item .menu__link, .header__top .open-menu .menu__item .dd-menu__link{
+    font-size: 20px;
+  }
+  .header__top .open-menu .menu__item{
+    padding: 0;
   }
 
   .about-us .section-body .checkbox{
@@ -562,6 +574,30 @@ $active-color: #3199DB;
   .main .projects .current-projects-slider .current-project__content .project-data__text{
     font-size: 20px;
   }
+  .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .slick-list{
+    width: 300px;
+    //height: 80px;
+    //margin: 0 auto;
+  }
+  .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .project-photo-nav__item{
+    max-width: 100px;
+  }
+
+  .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .project-photo-nav__item img{
+    width: 100%;
+  }
+  //.main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .project-photo-nav__item .overlay-photo{
+  //  left: calc(50% - 40px);
+  //  width: 80px;
+  //}
+  //
+  //.main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .project-photo-nav__item img{
+  //  width: 80px;
+  //}
+
+  .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .slick-track{
+    text-align: center;
+  }
 
   .footer{
     .footer-data__text{
@@ -575,6 +611,7 @@ $active-color: #3199DB;
   //}
 
   .header-body__title{
+    padding-top: 10vh;
     font-size: 62px;
     line-height: 78px;
   }
