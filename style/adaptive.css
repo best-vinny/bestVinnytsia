@@ -394,6 +394,10 @@
     flex-direction: column; }
     .about-us .section-body .checkbox label {
       padding: 10px 25px; }
+  .main .about-us .checkbox .vinny {
+    -webkit-transition: font-size .5s;
+    -o-transition: font-size .5s;
+    transition: font-size .5s; }
   .main .section-body .two-slide-slider .two-slide-slider__slide .data-list__item .data-list__value {
     font-size: 27px; }
   .main .section-body .two-slide-slider .two-slide-slider__slide .data-list__photo-overlay img {
