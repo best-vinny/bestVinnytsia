@@ -228,6 +228,25 @@ function toMobile(){
     $('.mobile-dd').removeClass('hidden');
 }
 
+(function scrollHideMenu(){
+    let prevScrollPos = window.pageYOffset;
+    const menu = document.querySelector('.header__top');
+    window.addEventListener('scroll', ()=> {
+        let currentScrollPos = window.pageYOffset;
+        console.log('prev'+prevScrollPos);
+        console.log('current'+currentScrollPos);
+        if ( prevScrollPos + 100 < currentScrollPos ) {
+            menu.classList.add("hidden");
+            prevScrollPos = currentScrollPos;
+
+        }
+         if(prevScrollPos - 100 > currentScrollPos) {
+            menu.classList.remove("hidden");
+            prevScrollPos = currentScrollPos;
+        }
+    });
+})();
+
 
 // for(let i = 0; i< requests.length; i++){
 //     PARSE()

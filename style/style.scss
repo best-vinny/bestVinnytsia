@@ -104,6 +104,7 @@ $main-red: #FF0000;
     left: 0;
     top: 0;
     height: 80px;
+    transition: .5s;
 
     .logo {
       &-img {
@@ -117,20 +118,22 @@ $main-red: #FF0000;
       left: 50%;
       transform: translateX(-50%);
       width: 150px;
-      box-shadow: 0 42px 22px rgba(0, 0, 0, 0.25);
+      box-shadow: 0 12px 22px rgba(0, 0, 0, 0.25);
       opacity: 0;
-      transition: 1s;
+      transition:  .5s;
 
       &__bridge {
-        height: 29px;
+        //height: 29px;
         background: initial;
       }
 
       &__item {
         text-align: center;
-        padding: 11px 0;
+        padding:0;
         background: #FFFFFF;
-        display: none;
+        height: 1px;///
+        transition: .5s;
+
 
         &:hover {
           background-color: rgba(255, 255, 255, 0.5);
@@ -146,8 +149,7 @@ $main-red: #FF0000;
         font-family: 'Roboto', sans-serif;
         font-style: normal;
         font-weight: bold;
-        font-size: 16px;
-        line-height: 19px;
+        font-size: 0;
         color: #000;
       }
     }
@@ -201,14 +203,25 @@ $main-red: #FF0000;
 
 
         &:hover {
-          //padding: 10px 0;
+
           .dd-menu {
             opacity: 1;
-            transition: opacity 1s;
+            transition:  .5s;
             z-index: 3;
 
+            &__bridge{
+              height: 29px;
+            }
+
             &__item {
-              display: block;
+              padding: 11px 0;
+              height: initial;
+              transition: .5s;
+            }
+
+            &__link{
+              font-size: 16px;
+              line-height: 19px; ;
             }
           }
 
@@ -251,7 +264,7 @@ $main-red: #FF0000;
 
     .hover-dd {
       &:hover {
-        padding: 10px 0;
+
 
         .dd-menu {
           opacity: 1;

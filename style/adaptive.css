@@ -125,7 +125,8 @@
 
 @media (max-width: 1080px) {
   .header__top {
-    z-index: 1000; }
+    z-index: 1000;
+    padding: 16px 7%; }
     .header__top .menu {
       -webkit-box-pack: end;
       -ms-flex-pack: end;
@@ -140,12 +141,13 @@
         display: block;
         position: fixed;
         top: -30px;
-        right: 30px; }
+        right: 30px;
+        max-height: 80px; }
         .header__top .menu__btn #nav-icon1, .header__top .menu__btn #nav-icon2, .header__top .menu__btn #nav-icon3, .header__top .menu__btn #nav-icon4 {
           width: 60px;
           height: 45px;
           position: relative;
-          margin: 50px auto;
+          margin: 48px auto 0;
           -webkit-transform: rotate(0deg);
           -moz-transform: rotate(0deg);
           -o-transform: rotate(0deg);
@@ -369,13 +371,17 @@
     padding-bottom: 50px; } }
 
 @media (max-width: 600px) {
-  .header__top .menu__btn #nav-icon1 span, .header__top .menu__btn #nav-icon2 span, .header__top .menu__btn #nav-icon3 span, .header__top .menu__btn #nav-icon4 span {
-    height: 6px;
-    width: 80%; }
-    .header__top .menu__btn #nav-icon1 span:nth-child(2), .header__top .menu__btn #nav-icon2 span:nth-child(2), .header__top .menu__btn #nav-icon3 span:nth-child(2), .header__top .menu__btn #nav-icon4 span:nth-child(2) {
-      top: 14px; }
-    .header__top .menu__btn #nav-icon1 span:nth-child(3), .header__top .menu__btn #nav-icon2 span:nth-child(3), .header__top .menu__btn #nav-icon3 span:nth-child(3), .header__top .menu__btn #nav-icon4 span:nth-child(3) {
-      top: 30px; }
+  .header__top .menu__btn #nav-icon1, .header__top .menu__btn #nav-icon2, .header__top .menu__btn #nav-icon3, .header__top .menu__btn #nav-icon4 {
+    margin: 54px auto 0; }
+    .header__top .menu__btn #nav-icon1 span, .header__top .menu__btn #nav-icon2 span, .header__top .menu__btn #nav-icon3 span, .header__top .menu__btn #nav-icon4 span {
+      height: 5px;
+      width: 70%; }
+      .header__top .menu__btn #nav-icon1 span:nth-child(2), .header__top .menu__btn #nav-icon2 span:nth-child(2), .header__top .menu__btn #nav-icon3 span:nth-child(2), .header__top .menu__btn #nav-icon4 span:nth-child(2) {
+        top: 14px; }
+      .header__top .menu__btn #nav-icon1 span:nth-child(3), .header__top .menu__btn #nav-icon2 span:nth-child(3), .header__top .menu__btn #nav-icon3 span:nth-child(3), .header__top .menu__btn #nav-icon4 span:nth-child(3) {
+        top: 30px; }
+  .header__top .menu__btn #nav-icon1 span:nth-child(2), .header__top .menu__btn #nav-icon2 span:nth-child(2), .header__top .menu__btn #nav-icon3 span:nth-child(2), .header__top .menu__btn #nav-icon4 span:nth-child(2) {
+    top: 15px; }
   .header-body__title {
     line-height: 90px; }
   .header__top .open-menu .menu__item .menu__link, .header__top .open-menu .menu__item .dd-menu__link {

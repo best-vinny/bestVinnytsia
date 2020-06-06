@@ -140,6 +140,7 @@ $active-color: #3199DB;
 @media(max-width: 1080px) {
   .header__top {
     z-index: 1000;
+    padding: 16px 7% ;
 
     .menu {
       justify-content: flex-end;
@@ -158,12 +159,13 @@ $active-color: #3199DB;
         position: fixed;
         top: -30px;
         right: 30px;
+        max-height: 80px;
 
         #nav-icon1, #nav-icon2, #nav-icon3, #nav-icon4 {
           width: 60px;
           height: 45px;
           position: relative;
-          margin: 50px auto;
+          margin: 48px auto 0;
           -webkit-transform: rotate(0deg);
           -moz-transform: rotate(0deg);
           -o-transform: rotate(0deg);
@@ -499,9 +501,12 @@ $active-color: #3199DB;
 @media (max-width: 600px) {
 
   .header__top .menu__btn #nav-icon1, .header__top .menu__btn #nav-icon2, .header__top .menu__btn #nav-icon3, .header__top .menu__btn #nav-icon4{
+
+    margin: 54px auto 0;
+
     span{
-      height: 6px;
-      width: 80%;
+      height: 5px;
+      width: 70%;
       &:nth-child(2){
         top:14px;
       }
@@ -510,6 +515,12 @@ $active-color: #3199DB;
       }
     }
   }
+
+  .header__top .menu__btn #nav-icon1 span:nth-child(2), .header__top .menu__btn #nav-icon2 span:nth-child(2), .header__top .menu__btn #nav-icon3 span:nth-child(2), .header__top .menu__btn #nav-icon4 span:nth-child(2){
+    top:15px;
+  }
+
+
   .header-body__title {
     line-height: 90px;
   }
