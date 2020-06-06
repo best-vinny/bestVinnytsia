@@ -219,7 +219,7 @@
         -webkit-box-shadow: none;
         box-shadow: none;
         border-left: 2px solid #3199DB;
-        margin: 8px 0;
+        margin: 4px 0;
         opacity: 1;
         -webkit-transition: opacity 1s;
         -o-transition: opacity 1s;
@@ -229,9 +229,8 @@
         .header__top .open-menu .dd-menu__item {
           display: block;
           text-align: left;
-          padding: 8px 7px; }
-          .header__top .open-menu .dd-menu__item:nth-child(2) {
-            padding: 0 7px 8px; }
+          padding: 4px 7px;
+          height: initial; }
           .header__top .open-menu .dd-menu__item:last-child {
             margin-left: 0; }
           .header__top .open-menu .dd-menu__item .dd-menu__link {

@@ -251,7 +251,7 @@ $active-color: #3199DB;
         transform: none;
         box-shadow: none;
         border-left: 2px solid $active-color;
-        margin: 8px 0;
+        margin: 4px 0;
         opacity: 1;
         transition: opacity 1s;
         &__bridge {
@@ -261,11 +261,12 @@ $active-color: #3199DB;
         &__item {
           display: block;
           text-align: left;
-          padding: 8px 7px;
+          padding: 4px 7px;
+          height: initial;
 
-          &:nth-child(2) {
-            padding: 0 7px 8px;
-          }
+          //&:nth-child(2) {
+          //  padding: 0 7px 8px;
+          //}
 
           &:last-child {
             margin-left: 0;
