@@ -388,7 +388,10 @@ h1, h2, h3, h4, h5, h6, button {
           -ms-flex-positive: 1;
           flex-grow: 1; }
       .main .section-body .two-slide-slider .two-slide-slider__slide .two-slide-slider__empty-map {
-        max-width: 100%; }
+        max-width: 100%;
+        -webkit-transition: .5s;
+        -o-transition: .5s;
+        transition: .5s; }
     .main .section-body .two-slide-slider .slick-dots button {
       font-size: 0; }
 
@@ -408,20 +411,21 @@ h1, h2, h3, h4, h5, h6, button {
         background-image: url("../img/checkbox-on.svg"); }
     .main .about-us .checkbox .vinny {
       width: 250px;
-      -webkit-transition: .5s;
-      -o-transition: .5s;
-      transition: .5s;
+      -webkit-transition: width .5s, font-size .5s .5s;
+      -o-transition: width .5s, font-size .5s .5s;
+      transition: width .5s, font-size .5s .5s;
       left: 100px; }
     .main .about-us .checkbox .hidden {
       display: block;
       font-size: 0;
-      -webkit-transition: .5s;
-      -o-transition: .5s;
-      transition: .5s; }
+      -webkit-transition: width 1s .5s;
+      -o-transition: width 1s .5s;
+      transition: width 1s .5s;
+      width: 0;
+      padding: 0; }
     .main .about-us .checkbox label {
       font-weight: 500;
       font-size: 25px;
-      line-height: 29px;
       padding-right: 50px;
       cursor: pointer;
       -webkit-transition: .5s;

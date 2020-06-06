@@ -478,6 +478,7 @@ $main-red: #FF0000;
 
         .two-slide-slider__empty-map {
           max-width: 100%;
+          transition: .5s;
         }
       }
 
@@ -505,21 +506,25 @@ $main-red: #FF0000;
 
       .vinny{
         width: 250px;
-        transition: .5s;
+        transition: width .5s, font-size .5s .5s;
         left: 100px;
+
       }
 
       .hidden{
         display: block;
         font-size: 0;
-        transition: .5s;
+
+        transition: width 1s .5s;
+        width: 0;
+        padding: 0;
       }
 
 
       label {
         font-weight: 500;
         font-size: 25px;
-        line-height: 29px;
+        //line-height: 29px;
         padding-right: 50px;
         cursor: pointer;
         transition: .5s;
