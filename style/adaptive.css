@@ -288,7 +288,10 @@
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
     -ms-flex-direction: column-reverse;
-    flex-direction: column-reverse; }
+    flex-direction: column-reverse;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end; }
   .main .our-power .power-slider .power-slide__photo {
     width: 100%; }
   .power-slider .slick-arrow {
@@ -424,7 +427,7 @@
     max-height: 100px; }
   .main .projects .current-projects-slider .current-project__content .slick-prev {
     left: -15px; }
-  .main .projects .current-projects-slider .btw .current-project__content .project-data__top {
+  .main .projects .current-projects-slider .current-project__content .project-data__top {
     -ms-flex-wrap: wrap;
     flex-wrap: wrap; }
   .main .projects .current-projects-slider .btw .current-project__content .project-data__top .project-btn,
@@ -516,6 +519,9 @@
     font-size: 50px; }
   .header-body__sub-title {
     font-size: 32px; }
+  .main .our-power .power-slider .power-slide:nth-child(4) .power-slide__title:after {
+    width: 47px;
+    height: 47px; }
   .main .about-us .section-body .section-description .section-text {
     font-size: 16px; }
   .main .projects .current-projects-slider .current-project__content .project-data__top .project-title {

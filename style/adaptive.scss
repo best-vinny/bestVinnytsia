@@ -372,6 +372,7 @@ $active-color: #3199DB;
 
   .main .our-power .power-slider .power-slide{
     flex-direction: column-reverse;
+    justify-content: flex-end;
   }
 
   .main .our-power .power-slider .power-slide__photo{
@@ -589,7 +590,7 @@ $active-color: #3199DB;
     left: -15px;
   }
 
-  .main .projects .current-projects-slider .btw .current-project__content .project-data__top{
+  .main .projects .current-projects-slider .current-project__content .project-data__top{
     flex-wrap: wrap;
   }
 
@@ -756,6 +757,11 @@ $active-color: #3199DB;
   }
   .header-body__sub-title{
     font-size: 32px;
+  }
+
+  .main .our-power .power-slider .power-slide:nth-child(4) .power-slide__title:after{
+    width: 47px;
+    height: 47px;
   }
 
   .main .about-us .section-body .section-description .section-text{
