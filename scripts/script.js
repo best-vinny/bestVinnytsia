@@ -81,7 +81,7 @@ $('.project-main-photo').slick({
     fade: true,
     // autoplay: false,
     speed:1000,
-    autoplay: false,//врубити
+    autoplay: true,//врубити
     asNavFor:'.project-photo-nav'
 });
 
@@ -90,7 +90,6 @@ $('.project-photo-nav').slick({
     slidesToScroll: 1,
     speed:1000,
     centerMode:true,
-    centerPadding: 0,
     asNavFor: '.project-main-photo',
     arrows: false,
     vertical: true,
@@ -102,15 +101,15 @@ $('.project-photo-nav').slick({
     draggable: false,
     swipe: false,
     touchMove: false,
-    variableWidth: true,
-    adaptiveHeight: true,
+
     responsive:[
         {
             breakpoint:900,
             settings:{
-                slidesToShow: 3,
+                slidesToShow:5,
                  vertical: false,
                  verticalSwiping: false,
+                centerPadding: 0 ,
             }
         }
     ]

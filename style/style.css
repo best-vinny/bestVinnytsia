@@ -768,7 +768,6 @@ h1, h2, h3, h4, h5, h6, button {
           -webkit-box-align: center;
           -ms-flex-align: center;
           align-items: center;
-          max-height: 285px;
           margin-left: 20px; }
           .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-main-photo {
             min-width: 1px;
@@ -780,7 +779,6 @@ h1, h2, h3, h4, h5, h6, button {
             min-width: 1px;
             width: 65px;
             margin-left: 20px;
-            height: 100%;
             display: -webkit-box;
             display: -ms-flexbox;
             display: flex;
@@ -792,6 +790,8 @@ h1, h2, h3, h4, h5, h6, button {
             -ms-flex-pack: center;
             justify-content: center;
             cursor: pointer; }
+            .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .slick-track {
+              vertical-align: middle; }
             .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .project-photo-nav__item {
               padding-bottom: 10px;
               position: relative; }

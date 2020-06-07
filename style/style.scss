@@ -93,7 +93,7 @@ $main-red: #FF0000;
 
 .header {
 
-  .container{
+  .container {
     max-width: 1920px;
   }
 
@@ -125,7 +125,7 @@ $main-red: #FF0000;
       width: 150px;
       box-shadow: 0 12px 22px rgba(0, 0, 0, 0.25);
       opacity: 0;
-      transition:  .5s;
+      transition: .5s;
 
       &__bridge {
         //height: 29px;
@@ -134,9 +134,9 @@ $main-red: #FF0000;
 
       &__item {
         text-align: center;
-        padding:0;
+        padding: 0;
         background: #FFFFFF;
-        height: 1px;///
+        height: 1px; ///
         transition: .5s;
 
 
@@ -211,10 +211,10 @@ $main-red: #FF0000;
 
           .dd-menu {
             opacity: 1;
-            transition:  .5s;
+            transition: .5s;
             z-index: 3;
 
-            &__bridge{
+            &__bridge {
               height: 29px;
             }
 
@@ -224,9 +224,9 @@ $main-red: #FF0000;
               transition: .5s;
             }
 
-            &__link{
+            &__link {
               font-size: 16px;
-              line-height: 19px; ;
+              line-height: 19px;;
             }
           }
 
@@ -509,14 +509,14 @@ $main-red: #FF0000;
         }
       }
 
-      .vinny{
+      .vinny {
         width: 250px;
         transition: width .5s, font-size .5s .5s;
         left: 100px;
 
       }
 
-      .hidden{
+      .hidden {
         display: block;
         font-size: 0;
 
@@ -802,6 +802,7 @@ $main-red: #FF0000;
 
   .projects {
     padding-top: 40px;
+
     .section-top {
       padding-bottom: 100px;
     }
@@ -901,7 +902,7 @@ $main-red: #FF0000;
         padding: 90px 85px 60px;
 
         &__content {
-          padding: 29px 0 53px ;
+          padding: 29px 0 53px;
           max-width: 1500px;
           display: flex;
           align-items: flex-end;
@@ -980,7 +981,7 @@ $main-red: #FF0000;
             max-width: 500px;
             display: flex;
             align-items: center;
-            max-height: 285px;
+            //max-height: 285px;
             margin-left: 20px;
 
             .project-main-photo {
@@ -999,11 +1000,16 @@ $main-red: #FF0000;
               min-width: 1px;
               width: 65px;
               margin-left: 20px;
-              height: 100%;
+              //height: 100%;
+              //height: 250px;
               display: flex;
               flex-direction: column;
               justify-content: center;
               cursor: pointer;
+
+              .slick-track{
+                vertical-align: middle;
+              }
 
               .project-photo-nav__item {
                 padding-bottom: 10px;
@@ -1239,6 +1245,7 @@ $main-red: #FF0000;
 
   .board {
     padding-top: 40px;
+
     .section-body {
       display: flex;
       justify-content: space-between;
@@ -1322,9 +1329,10 @@ $main-red: #FF0000;
   background: #424141;
   color: #fff;
 
-  &-data__text{
-    color:#fff;
+  &-data__text {
+    color: #fff;
   }
+
   .section-top {
 
     .section-header {
