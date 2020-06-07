@@ -81,19 +81,16 @@ $('.project-main-photo').slick({
     fade: true,
     // autoplay: false,
     speed:1000,
-    autoplay: true,
+    autoplay: false,//врубити
     asNavFor:'.project-photo-nav'
 });
-
-
-
-
 
 $('.project-photo-nav').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
     speed:1000,
     centerMode:true,
+    centerPadding: 0,
     asNavFor: '.project-main-photo',
     arrows: false,
     vertical: true,
@@ -105,38 +102,20 @@ $('.project-photo-nav').slick({
     draggable: false,
     swipe: false,
     touchMove: false,
+    variableWidth: true,
+    adaptiveHeight: true,
     responsive:[
         {
             breakpoint:900,
             settings:{
-                slidesToShow: 5,
+                slidesToShow: 3,
                  vertical: false,
                  verticalSwiping: false,
-
-            }
-        },
-
-        {
-            breakpoint:600,
-            settings:{
-                slidesToShow: 3,
-                vertical: false,
-                verticalSwiping: false,
-
             }
         }
-        // ,
-        // {
-        //     breakpoint:400,
-        //     settings:{
-        //         slidesToShow: 1,
-        //         vertical: false,
-        //         verticalSwiping: false,
-        //
-        //     }
-        // }
     ]
 });
+
 
 const checkboxAll = document.querySelector('.all');
 const checkboxVinny = document.querySelector('.vinny');
@@ -204,8 +183,6 @@ function toggleMenu(arrowNum, menuName){
         $(menuName).toggleClass('close');
 }
 
-
-
 //height mobile menu
 let vh = window.innerHeight * 0.01;
 document.documentElement.style.setProperty('--vh', `${vh}px`);
@@ -233,8 +210,6 @@ function toMobile(){
     const menu = document.querySelector('.header__top');
     window.addEventListener('scroll', ()=> {
         let currentScrollPos = window.pageYOffset;
-        console.log('prev'+prevScrollPos);
-        console.log('current'+currentScrollPos);
         if ( prevScrollPos + 100 < currentScrollPos ) {
             menu.classList.add("hidden");
             prevScrollPos = currentScrollPos;
@@ -248,6 +223,3 @@ function toMobile(){
 })();
 
 
-// for(let i = 0; i< requests.length; i++){
-//     PARSE()
-// }

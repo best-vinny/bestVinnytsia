@@ -433,7 +433,6 @@ $active-color: #3199DB;
 
   .main .projects .current-projects-slider .current-project__content .project-data__top{
     justify-content: center;
-
   }
 
   .main .projects .current-projects-slider .current-project__content .project-photo-slider{
@@ -443,7 +442,6 @@ $active-color: #3199DB;
 
   .main .projects .current-projects-slider .current-project__content .project-data{
     max-width: initial;
-
   }
 
   .project-main-photo__item{
@@ -458,36 +456,48 @@ $active-color: #3199DB;
   .main .projects .current-projects-slider .current-project__content .project-photo-slider{
     flex-direction: column;
   }
-  .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav{
-    //flex-direction: row;
-  }
+
   .main .projects .current-projects-slider .current-project__content .project-photo-slider{
     max-height: initial;
-
   }
+
+
   .project-photo-nav{
 
     .slick-track{
       min-width: 1px;
-      //width: 100% !important;
-      display: inline-flex;
-
+      display: flex;
+      flex-direction: row;
+      text-align: center;
     }
   }
+
   .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav{
-    width: auto;
+    width: initial;
+    height: initial;
     margin: 10px auto 0;
+    flex-direction: row;
+    max-width: 400px;
   }
 
 
   .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .slick-list{
-    width: 500px;
-    justify-content: center;
+    margin: 0 auto;
+    padding: 0;
   }
 
   .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .project-photo-nav__item {
-    min-width: 50px !important;
-    justify-content: center;
+    //min-width: 50px !important;
+    //justify-content: center;
+    //max-width: 100px;
+    margin-left: 3px;
+    margin-right: 3px;
+  }
+
+
+  .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .project-photo-nav__item img{
+    //width: 100%;  перечдивись
+    width: initial;
   }
 
   .main .partners{
@@ -583,10 +593,10 @@ $active-color: #3199DB;
     flex-wrap: wrap;
   }
 
-  .main .projects .current-projects-slider .btw .current-project__content .project-data__top .project-btn, .main .projects .current-projects-slider .current-project__content .project-data__top .project-btn, .main .projects .current-projects-slider .ir .current-project__content .project-btn{
+  .main .projects .current-projects-slider .btw .current-project__content .project-data__top .project-btn,
+  .main .projects .current-projects-slider .current-project__content .project-data__top .project-btn, .main .projects .current-projects-slider .ir .current-project__content .project-btn{
     margin: 10px auto;
   }
-
 
   .main .projects .current-projects-slider .current-project__content .project-data__top .project-title{
     font-size: 35px;
@@ -597,30 +607,9 @@ $active-color: #3199DB;
   .main .projects .current-projects-slider .current-project__content .project-data__text{
     font-size: 20px;
   }
-  
-  .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .slick-list{
-    width: 300px;
-    //height: 80px;
-    //margin: 0 auto;
-  }
-  .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .project-photo-nav__item{
-    max-width: 100px;
-  }
 
-  .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .project-photo-nav__item img{
-    width: 100%;
-  }
-  //.main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .project-photo-nav__item .overlay-photo{
-  //  left: calc(50% - 40px);
-  //  width: 80px;
-  //}
-  //
-  //.main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .project-photo-nav__item img{
-  //  width: 80px;
-  //}
-
-  .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .slick-track{
-    text-align: center;
+  .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav{
+  max-width: 300px;
   }
 
   .footer{
@@ -764,5 +753,9 @@ $active-color: #3199DB;
   .main .projects .current-projects-slider .current-project__content .project-data__text{
     font-size: 15px;
     line-height: 20px;
+  }
+
+  .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav{
+    max-width: 200px;
   }
 }

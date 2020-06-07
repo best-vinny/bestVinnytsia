@@ -92,6 +92,11 @@ $main-red: #FF0000;
 }
 
 .header {
+
+  .container{
+    max-width: 1920px;
+  }
+
   &__top {
     display: flex;
     justify-content: space-between;
@@ -99,7 +104,7 @@ $main-red: #FF0000;
     position: fixed;
     padding: 16px 4% 16px 7%;
     z-index: 99999999999;
-    width: 100vw;
+    width: 100%;
     background: #fff;
     left: 0;
     top: 0;
@@ -985,7 +990,7 @@ $main-red: #FF0000;
 
               &__item {
                 img {
-                  width: 100%;
+                  max-width: 100%;
                 }
               }
             }
@@ -1010,17 +1015,13 @@ $main-red: #FF0000;
                   left: 0;
                   right: 0;
                   bottom: 10px;
-
-
                 }
 
                 img {
-                  width: 100%;
-
+                  max-width: 100%;
                 }
               }
             }
-
           }
         }
       }

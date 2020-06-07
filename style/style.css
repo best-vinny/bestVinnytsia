@@ -77,6 +77,9 @@ h1, h2, h3, h4, h5, h6, button {
     -o-transition: padding 1s;
     transition: padding 1s; }
 
+.header .container {
+  max-width: 1920px; }
+
 .header__top {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -90,7 +93,7 @@ h1, h2, h3, h4, h5, h6, button {
   position: fixed;
   padding: 16px 4% 16px 7%;
   z-index: 99999999999;
-  width: 100vw;
+  width: 100%;
   background: #fff;
   left: 0;
   top: 0;
@@ -772,7 +775,7 @@ h1, h2, h3, h4, h5, h6, button {
             width: 100%;
             text-align: center; }
             .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-main-photo__item img {
-              width: 100%; }
+              max-width: 100%; }
           .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav {
             min-width: 1px;
             width: 65px;
@@ -799,7 +802,7 @@ h1, h2, h3, h4, h5, h6, button {
                 right: 0;
                 bottom: 10px; }
               .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .project-photo-nav__item img {
-                width: 100%; }
+                max-width: 100%; }
     .main .projects .current-projects-slider .current-project__content > .slick-list > .slick-track {
       display: -webkit-box;
       display: -ms-flexbox;

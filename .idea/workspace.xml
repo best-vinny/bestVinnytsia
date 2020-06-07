@@ -3,37 +3,11 @@
   <component name="ChangeListManager">
     <list default="true" id="741456da-e3a6-495b-8dc1-e535edfd617a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/btw1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/btw1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/btw2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/btw2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/btw3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/btw3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/btw4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/btw4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/btw5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/btw5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/btw6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/btw6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/ebec1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/ebec1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/ebec2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/ebec2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/ebec3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/ebec3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/ebec4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/ebec4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/ebec5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/ebec5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/ebec6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/ebec6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/ir1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/ir1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/ir2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/ir2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/ir3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/ir3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/ir4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/ir4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/ir5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/ir5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/ir6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/ir6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/jf1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/jf1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/jf3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/jf3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/jf4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/jf4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/jf5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/jf5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/jf6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/jf6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/sc1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/sc1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/sc2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/sc2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/sc3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/sc3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/sc4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/sc4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/sc5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/sc5.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/projects/sc6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/projects/sc6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/script.js" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/script.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/adaptive.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/adaptive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/adaptive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/adaptive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,7 +73,7 @@
       <workItem from="1591117009301" duration="4771000" />
       <workItem from="1591179796731" duration="16101000" />
       <workItem from="1591274695081" duration="6752000" />
-      <workItem from="1591413965185" duration="9056000" />
+      <workItem from="1591413965185" duration="16383000" />
     </task>
     <task id="LOCAL-00001" summary="header">
       <created>1583622572061</created>
