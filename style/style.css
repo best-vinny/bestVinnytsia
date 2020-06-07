@@ -790,8 +790,6 @@ h1, h2, h3, h4, h5, h6, button {
             -ms-flex-pack: center;
             justify-content: center;
             cursor: pointer; }
-            .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .slick-track {
-              vertical-align: middle; }
             .main .projects .current-projects-slider .current-project__content .project-photo-slider .project-photo-nav .project-photo-nav__item {
               padding-bottom: 10px;
               position: relative; }
