@@ -257,8 +257,7 @@
         .header__top .open-menu .menu__item .mobile-dd_active {
           color: #3199DB; }
         .header__top .open-menu .menu__item:nth-child(3) {
-          position: relative;
-          padding: 0; }
+          position: relative; }
           .header__top .open-menu .menu__item:nth-child(3) .dd-menu {
             display: block; }
           .header__top .open-menu .menu__item:nth-child(3) .menu__link {
@@ -395,7 +394,8 @@
   .header-body__title {
     line-height: 90px; }
   .header__top .open-menu .menu__item .menu__link, .header__top .open-menu .menu__item .dd-menu__link {
-    font-size: 20px; }
+    font-size: 23px;
+    line-height: 1.3; }
   .header__top .open-menu .menu__item {
     padding: 0; }
   .about-us .section-body .checkbox {
