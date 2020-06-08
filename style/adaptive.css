@@ -447,7 +447,13 @@
     min-width: initial;
     max-width: 100%; }
   .footer .footer-data__text {
-    font-size: 20px; } }
+    font-size: 20px; }
+  .arrow .colors {
+    padding-bottom: 4px; }
+    .arrow .colors .line {
+      height: 4px; }
+  .arrow svg {
+    margin-bottom: 8px; } }
 
 @media (max-width: 460px) {
   .header-body__title {

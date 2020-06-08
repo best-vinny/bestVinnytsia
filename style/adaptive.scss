@@ -629,10 +629,21 @@ $active-color: #3199DB;
     max-width: 100%;
   }
 
-
   .footer {
     .footer-data__text {
       font-size: 20px;
+    }
+  }
+
+  .arrow{
+    .colors{
+      padding-bottom: 4px ;
+      .line {
+        height: 4px;
+      }
+    }
+    svg {
+      margin-bottom: 8px;
     }
   }
 }

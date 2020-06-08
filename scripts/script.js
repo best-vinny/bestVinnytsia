@@ -206,18 +206,28 @@ function toMobile(){
 
 (function scrollHideMenu(){
     let prevScrollPos = window.pageYOffset;
+    const arrTop = document.querySelector('.arrow');
     const menu = document.querySelector('.header__top');
     window.addEventListener('scroll', ()=> {
         let currentScrollPos = window.pageYOffset;
         if ( prevScrollPos + 100 < currentScrollPos ) {
             menu.classList.add("hidden");
+            $('#nav-icon1').removeClass('open');
+            $('.menu').removeClass('open-menu');
             prevScrollPos = currentScrollPos;
 
         }
          if(prevScrollPos - 100 > currentScrollPos) {
             menu.classList.remove("hidden");
+
             prevScrollPos = currentScrollPos;
         }
+        if(currentScrollPos > window.innerHeight ){
+            arrTop.classList.remove("hidden");
+        } else{
+            arrTop.classList.add("hidden");
+        }
+
     });
 })();
 
