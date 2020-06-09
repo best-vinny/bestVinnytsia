@@ -277,6 +277,8 @@
       display: none; }
       .header__top .change-lang .lang:after {
         font-size: 0; }
+      .header__top .change-lang .dd-btnDvn2, .header__top .change-lang .dd-btnTop2 {
+        position: relative !important; }
   .main .our-power .power-slider .power-slide__content {
     width: initial;
     padding: 40px 0; }
