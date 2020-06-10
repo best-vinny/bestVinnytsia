@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="741456da-e3a6-495b-8dc1-e535edfd617a" name="Default Changelist" comment="" />
+    <list default="true" id="741456da-e3a6-495b-8dc1-e535edfd617a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/adaptive.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/adaptive.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/adaptive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/adaptive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.scss" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -66,7 +72,7 @@
       <workItem from="1591117009301" duration="4771000" />
       <workItem from="1591179796731" duration="16101000" />
       <workItem from="1591274695081" duration="6752000" />
-      <workItem from="1591413965185" duration="55529000" />
+      <workItem from="1591413965185" duration="57139000" />
     </task>
     <task id="LOCAL-00001" summary="header">
       <created>1583622572061</created>

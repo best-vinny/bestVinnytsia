@@ -34,18 +34,26 @@ $active-color: #3199DB;
     }
 
     .partners-list{
-      padding: 50px 0 0px;
+      padding: 50px 0 0;
     }
   }
 
 
   .main .about-us{
-    padding-top: 0;
+    padding-top: 30px;
   }
 
 
   .main .our-power .power-slider .power-slide:nth-child(4) .power-slide__title:after {
     display: none;
+  }
+
+  .main .projects .current-projects-slider .current-project {
+    padding: 27px;
+
+    .current-project__content:before {
+      display: none;
+    }
   }
 
 }
@@ -130,13 +138,7 @@ $active-color: #3199DB;
     padding: 30px;
   }
 
-  .main .projects .current-projects-slider .current-project {
-    padding: 27px;
 
-    .current-project__content:before {
-      display: none;
-    }
-  }
 
   .projects-logo-slider {
     display: flex;

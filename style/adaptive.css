@@ -15,11 +15,15 @@
   .main .container .projects .section-top {
     padding-bottom: 50px; }
   .main .container .partners-list {
-    padding: 50px 0 0px; }
+    padding: 50px 0 0; }
   .main .about-us {
-    padding-top: 0; }
+    padding-top: 30px; }
   .main .our-power .power-slider .power-slide:nth-child(4) .power-slide__title:after {
-    display: none; } }
+    display: none; }
+  .main .projects .current-projects-slider .current-project {
+    padding: 27px; }
+    .main .projects .current-projects-slider .current-project .current-project__content:before {
+      display: none; } }
 
 @media (max-width: 1300px) {
   .header__top .menu {
@@ -104,10 +108,6 @@
     align-items: flex-start; }
   .main .projects .current-projects-slider .current-project__content {
     padding: 30px; }
-  .main .projects .current-projects-slider .current-project {
-    padding: 27px; }
-    .main .projects .current-projects-slider .current-project .current-project__content:before {
-      display: none; }
   .projects-logo-slider {
     display: -webkit-box;
     display: -ms-flexbox;
