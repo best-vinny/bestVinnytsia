@@ -6,6 +6,7 @@
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/adaptive.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/adaptive.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/style/adaptive.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/adaptive.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -71,7 +72,7 @@
       <workItem from="1591117009301" duration="4771000" />
       <workItem from="1591179796731" duration="16101000" />
       <workItem from="1591274695081" duration="6752000" />
-      <workItem from="1591413965185" duration="50971000" />
+      <workItem from="1591413965185" duration="54818000" />
     </task>
     <task id="LOCAL-00001" summary="header">
       <created>1583622572061</created>

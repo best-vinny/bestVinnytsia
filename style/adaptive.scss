@@ -13,9 +13,41 @@ $active-color: #3199DB;
 }
 
 @media(max-width: 1400px) {
+
+  .main .container{
+    .our-power{
+      margin: 0 auto;
+      max-width: 1200px;
+
+      .power-slider{
+        padding-top: 30px;
+
+        .power-slide__content .power-slide__text{
+        font-size: 24px;
+        line-height: 26px;
+      }
+      }
+    }
+
+    .projects .section-top {
+      padding-bottom: 50px;
+    }
+
+    .partners-list{
+      padding: 50px 0 0px;
+    }
+  }
+
+
+  .main .about-us{
+    padding-top: 0;
+  }
+
+
   .main .our-power .power-slider .power-slide:nth-child(4) .power-slide__title:after {
     display: none;
   }
+
 }
 
 @media(max-width: 1300px) {

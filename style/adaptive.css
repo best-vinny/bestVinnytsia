@@ -4,6 +4,20 @@
     min-width: 95px; } }
 
 @media (max-width: 1400px) {
+  .main .container .our-power {
+    margin: 0 auto;
+    max-width: 1200px; }
+    .main .container .our-power .power-slider {
+      padding-top: 30px; }
+      .main .container .our-power .power-slider .power-slide__content .power-slide__text {
+        font-size: 24px;
+        line-height: 26px; }
+  .main .container .projects .section-top {
+    padding-bottom: 50px; }
+  .main .container .partners-list {
+    padding: 50px 0 0px; }
+  .main .about-us {
+    padding-top: 0; }
   .main .our-power .power-slider .power-slide:nth-child(4) .power-slide__title:after {
     display: none; } }
 
