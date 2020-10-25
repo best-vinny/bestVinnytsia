@@ -2,11 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="741456da-e3a6-495b-8dc1-e535edfd617a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/sitemap.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/board1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/board1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/board1.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/board2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/board2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/board2.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/board3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/board3.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/board3.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/board4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/board4.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/board4.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/board5.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/board6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/board6.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/img/board6.webp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,6 +87,8 @@
       <workItem from="1591179796731" duration="16101000" />
       <workItem from="1591274695081" duration="6752000" />
       <workItem from="1591413965185" duration="65542000" />
+      <workItem from="1601568654995" duration="899000" />
+      <workItem from="1603623179708" duration="1949000" />
     </task>
     <task id="LOCAL-00001" summary="header">
       <created>1583622572061</created>
