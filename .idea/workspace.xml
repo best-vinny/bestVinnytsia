@@ -2,20 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="741456da-e3a6-495b-8dc1-e535edfd617a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/board1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/board1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/board1.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/board2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/board2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/board2.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/board3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/board3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/board3.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/board4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/board4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/board4.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/board5.webp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/board6.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/img/board6.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/img/board6.webp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/prepros-6.config" beforeDir="false" afterPath="$PROJECT_DIR$/prepros-6.config" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/css/bootstrap/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/css/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/css/default.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/css/font-au/AUPassata_Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/css/font-au/AUPassata_Bold.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/css/font-au/AUPassata_Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/css/font-au/AUPassata_Light.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/css/font-au/AUPassata_Rg.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/css/font-au/AUPassata_Rg.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/css/font-au/AU_Peto.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/css/font-au/AU_Peto.ttf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/css/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/AUHack_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/AUHack_logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/Best-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/Best-logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/WebBanner.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/WebBanner.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/favicon/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/favicon/favicon-16x16.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/favicon/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/favicon/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/figures/gray_bottom_right_triangle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/figures/gray_bottom_right_triangle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/figures/gray_top_left_triangle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/figures/gray_top_left_triangle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/figures/red_bottom_right_triangle.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/figures/red_bottom_right_triangle.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/figures/white_bottom_right_triangle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/figures/white_bottom_right_triangle.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/sponsors/ciklum.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/sponsors/ciklum.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/sponsors/existek.svg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/sponsors/existek.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/sponsors/itvn.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/sponsors/itvn.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/sponsors/plexteq.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/sponsors/plexteq.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/sponsors/skysoft.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/sponsors/skysoft.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/sponsors/steelkiwi.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/sponsors/steelkiwi.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/sponsors/steelkiwi.svg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/sponsors/steelkiwi.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/js/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/js/default.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/js/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/js/jquery.waypoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/js/jquery.waypoints.min.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/img/BEST_Vinnytsia.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/img/BEST_Vinnytsia.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/img/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/img/bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/img/bg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/img/bg1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/img/far.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/img/far.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/img/ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/img/ico.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/img/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/img/mo.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/img/mo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/img/partner1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/img/partner1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/img/partner2.1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/img/partner2.1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/style.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,16 +65,18 @@
   </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="SCSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -60,6 +88,7 @@
       <recent name="C:\Users\Oles\Projects2020\верстка\bestVinnytsia\style" />
     </key>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -89,6 +118,7 @@
       <workItem from="1591413965185" duration="65542000" />
       <workItem from="1601568654995" duration="899000" />
       <workItem from="1603623179708" duration="1949000" />
+      <workItem from="1614808351831" duration="3128000" />
     </task>
     <task id="LOCAL-00001" summary="header">
       <created>1583622572061</created>
@@ -101,7 +131,18 @@
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="header" />

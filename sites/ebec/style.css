@@ -1,0 +1,174 @@
+* {
+  outline: none;
+  padding: 0;
+  margin: 0;
+  border: 0; }
+
+a:hover {
+  text-decoration: none;
+  cursor: pointer; }
+
+header {
+  background: rgba(255, 255, 255, 0.9); }
+  header .top-head {
+    margin: 0 auto;
+    max-width: 1000px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+    header .top-head .date {
+      margin-top: 5px; }
+    header .top-head p {
+      font-size: 40px;
+      font-family: 'Bitter', serif;
+      text-align: end;
+      margin: 0 20px 0 0;
+      line-height: 1.2;
+      color: #586063; }
+
+body {
+  background-image: url(img/bg.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  min-width: 900px;}
+
+.nav {
+  min-width: 710px;
+  max-width: 825px;
+  margin: 2px auto; }
+  .nav li {
+    border-radius: 9px;
+    margin-left: 2px; }
+  .nav .active {
+    background-color: #f1a64b !important;
+    color: white; }
+
+.nav-item {
+  background: #586063; }
+  .nav-item a {
+    cursor: pointer;
+    color: orange; }
+
+.video {
+  max-width: 760px;
+  margin: 0 auto 20px; }
+
+.tab-content {
+  min-height: calc(100vh - 510px); }
+
+.tab-pane {
+  padding: 0 15px;
+  max-width: 800px;
+  margin: 0 auto; }
+  .tab-pane h1 {
+    text-align: center;
+    text-transform: uppercase;
+    margin: 30px 30px;
+    color: #586063; }
+  .tab-pane .text-cover {
+    margin-top: 30px; }
+    .tab-pane .text-cover table, .tab-pane .text-cover tr {
+      border: 2px solid white;
+      color: white; }
+    .tab-pane .text-cover th {
+      padding: 15px; }
+    .tab-pane .text-cover td {
+      padding: 5px 10px 5px 15px; }
+  .tab-pane p, .tab-pane li {
+    padding-left: 5px;
+    font-size: 20px;
+    color: seashell;
+    margin: 4px 0 4px 10px;
+    font-family: 'Lato', sans-serif; }
+  .tab-pane .link-form {
+    color: grey;
+    font-size: 20px;
+    text-decoration: underline; }
+  .tab-pane .best-vinny-logo {
+    max-width: 300px;
+    float: left;
+    padding: 30px; }
+
+.contacts-component {
+  display: flex;
+  justify-content: space-around;
+  margin: 50px 0; }
+  .contacts-component img {
+    height: 400px;
+    margin-bottom: 10px; }
+  .contacts-component .center {
+    margin: 15px 0 10px; }
+  .contacts-component .responsible {
+    line-height: 1; }
+  .contacts-component .about-organizer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center; }
+
+.on-btn {
+  margin-top: 60px;
+  text-align: center;
+  color: white;
+  font-size: 22px;
+  font-weight: bold; }
+
+.btn {
+  padding: 0;
+  display: block;
+  margin: 10px auto 50px;
+  width: 300px;
+  cursor: pointer;
+  outline: none; }
+
+.registration {
+  cursor: pointer;
+  background: #1abc41;
+  color: white;
+  width: 300px;
+  text-align: center;
+  border-radius: 10px;
+  border: 5px outset #1abc41; }
+  .registration p {
+    margin-top: 3px;
+    text-align: center;
+    color: white;
+    font-size: 25px; }
+
+.registration:active {
+  border: 5px inset #1abc41; }
+
+footer {
+  background: #38635f; }
+  footer p {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    margin: 0;
+    padding: 20px 0; }
+
+.partner__row{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin:0 -10px;
+}
+
+.partner__img{
+  flex: 0 1 auto;
+  padding: 0 10px;
+}
+
+.partner__img img{
+  max-width: 100%;
+}

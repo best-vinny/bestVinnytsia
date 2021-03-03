@@ -1,0 +1,338 @@
+hr {
+  background-color: #ffffff;
+  margin-bottom: 50px;
+}
+
+/*
+ -------------- Logo SECTION --------------
+ */
+.cite-name{
+  padding-top: 20px;
+}
+
+.city{
+  padding-bottom: 30px;
+  font-size: 8vh;
+  line-height: 0.7;
+}
+
+#logo-section {
+  background: url("../img/WebBanner.png") no-repeat center #666;
+  background-size: cover;
+  /*background-color: #D65B12;*/
+  height: 130vh;
+  color: #ffffff;
+  margin-top: 60px;
+}
+
+#logo-section  .overlay{
+  width: 100%;
+  height: 106%;
+  top:0;
+  position: absolute;
+}
+
+#logo-section h1 {
+  font-size: 10vh; /*6em;*/
+}
+
+#logo-section p {
+  font-size: 5vh; /*2em;*/
+}
+
+#logo-section .logo-section-top-margin {
+  height: 10vh;
+}
+
+#logo-section .btn-lg {
+  font-size: 3vh;
+}
+
+/*
+-------------- SIGN UP SECTION --------------
+ */
+
+input.mce_inline_error {
+  border-color: #b70303 !important;
+}
+
+div.mce_inline_error {
+  background-color: #b70303 !important;
+}
+
+#mce-success-response,
+#mce-error-response {
+  background-color: #840d09;
+}
+
+#mce-success-response a,
+#mce-error-response a {
+  color: #fff;
+  text-decoration: underline;
+}
+
+email-.sign-up-form {
+  text-align: center;
+  border-radius: 2px;
+  padding: 10px;
+}
+
+#sign-up-section {
+  color: #ffffff;
+  background-color: #840d09;
+  padding-bottom: 8em;
+}
+
+#sign-up-section:before {
+  top: -4em;
+  height: 4em;
+  background-image: url("../img/figures/red_bottom_right_triangle.png");
+
+}
+
+/*
+ -------------- Teaser SECTION --------------
+ */
+
+#teaser-section {
+  background-color: #ffffff;
+  padding-bottom: 8em;
+}
+
+#teaser-section:before {
+  top: -4em;
+  height: 4em;
+  background-image: url("../img/figures/white_bottom_right_triangle.svg");
+}
+
+#teaser-section hr {
+  border-top: 1px solid #000000;
+}
+
+#teaser-section h5{
+  font-family: 'Roboto';
+}
+
+/*
+ -------------- FAQ SECTION --------------
+ */
+
+#faq-section {
+  background-color: #840d09;
+  color: #ffffff;
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+#faq-section:before {
+  top: -4em;
+  height: 4em;
+  background-image: url("../img/figures/red_bottom_right_triangle.png");
+}
+
+#faq-section h2 {
+  text-align: center;
+}
+
+#faq-section h3 {
+  font-size: 2em;
+  text-align: left;
+  /*text-decoration: underline;*/
+  line-height: 50px;
+}
+
+#faq-section h4 {
+  cursor: pointer;
+}
+
+#faq-section a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  #faq-section h4 {
+    cursor: pointer;
+  }
+
+  #logo-section #logo-section-top-margin {
+    height: 30vh;
+  }
+}
+
+#faq-section .arrow-animate {
+  -moz-transition: all 0.5s linear;
+  -webkit-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+#faq-section .arrow-animate.down {
+  -o-transform: rotate(-90deg);
+  -ms-transform: rotate(-90deg);
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  transform: rotate(-90deg);
+}
+
+/*
+ -------------- SCHEDULE SECTION --------------
+ */
+
+#schedule-section {
+  background-color: #364759;
+  color: #ffffff;
+  text-align: center;
+}
+
+#schedule-section:before {
+  top: -4em;
+  height: 4em;
+  background-image: url("../img/figures/gray_bottom_right_triangle.svg");
+}
+
+#schedule-section:after {
+  bottom: -4em;
+  height: 4em;
+  background-image: url("../img/figures/gray_top_left_triangle.svg");
+}
+
+#schedule-section .table {
+  text-align: left;
+}
+
+/*
+ -------------- SPONSORS SECTION --------------
+ */
+#sponsors-section {
+  padding-top: 75px;
+  padding-bottom: 50px;
+  color: #d65b12;
+  text-align: center;
+}
+
+#sponsors-section a {
+  color: #d65b12;
+  text-decoration: underline;
+}
+
+#sponsors-section h4 {
+  font-size: 2em;
+}
+
+#sponsors-section img {
+  max-height: 200px;
+  max-width: 80%;
+  width: auto;
+  margin: 25px 1px;
+}
+
+#sponsors-section hr {
+  border-top: 1px solid #d65b12;
+  margin-bottom: 15px;
+}
+
+#sponsors-section hr#sponsor-category {
+  border-top: 1px solid rgba(214, 91, 18, 0.1);
+  margin: 0;
+}
+
+.sponsor-tile {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+#sponsors-section .row {
+  align-items: center
+}
+
+/*
+ -------------- Judges SECTION --------------
+ */
+
+#judges-section {
+  background-color: #d65b12;
+  color: #ffffff;
+  text-align: left;
+  padding-bottom: 50px;
+}
+
+#judges-section:before {
+  top: -4em;
+  height: 4em;
+  background-image: url("../img/figures/orange_bottom_left_triangle.svg");
+}
+
+#judges-section h2 {
+  text-align: center;
+}
+
+#judges-section h3 {
+  font-size: 2em;
+  text-align: left;
+  /*text-decoration: underline;*/
+  line-height: 50px;
+}
+
+#judges-section h4 {
+  cursor: pointer;
+}
+
+judges-section a {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  #juges-section h4 {
+    cursor: pointer;
+  }
+}
+
+#judges-section #judges-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+#judges-section .judge {
+  width: 40%;
+  min-width: 325px;
+  padding-top: 25px;
+}
+
+#judges-section .judge img {
+  width: 20vh;
+  height: auto;
+}
+
+@media (max-width: 439px) {
+
+  .logo{
+
+  }
+  .logo img {
+    width: 100vw;
+  }
+
+  #logo-section h1 {
+    padding-top: 50px;
+    font-size: 6vh;
+    padding-left: 10px;
+  }
+
+  .city {
+    padding-left: 10px;
+    font-size: 5vh;
+  }
+
+  #logo-section p {
+    padding-left: 10px;
+    font-size: 4vh;
+    line-height: 1;
+
+  }
+  h2{
+    font-size: 2.5em;
+  }
+}
