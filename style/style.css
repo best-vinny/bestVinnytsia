@@ -254,7 +254,8 @@ h1, h2, h3, h4, h5, h6, button {
     font-size: 93px;
     line-height: 124px;
     text-align: center;
-    color: #FFFFFF; }
+    color: #FFFFFF;
+    text-transform: uppercase;}
   .header-body__sub-title {
     font-weight: 300;
     font-size: 36px;

@@ -2,46 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="741456da-e3a6-495b-8dc1-e535edfd617a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/css/bootstrap/bootstrap.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/css/bootstrap/bootstrap.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/css/default.css" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/css/default.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/css/font-au/AUPassata_Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/css/font-au/AUPassata_Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/css/font-au/AUPassata_Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/css/font-au/AUPassata_Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/css/font-au/AUPassata_Rg.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/css/font-au/AUPassata_Rg.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/css/font-au/AU_Peto.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/css/font-au/AU_Peto.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/css/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/css/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/AUHack_logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/AUHack_logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/Best-logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/Best-logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/WebBanner.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/WebBanner.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/favicon/favicon-16x16.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/favicon/favicon-16x16.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/favicon/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/favicon/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/figures/gray_bottom_right_triangle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/figures/gray_bottom_right_triangle.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/figures/gray_top_left_triangle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/figures/gray_top_left_triangle.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/figures/red_bottom_right_triangle.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/figures/red_bottom_right_triangle.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/figures/white_bottom_right_triangle.svg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/figures/white_bottom_right_triangle.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/sponsors/ciklum.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/sponsors/ciklum.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/sponsors/existek.svg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/sponsors/existek.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/sponsors/itvn.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/sponsors/itvn.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/sponsors/plexteq.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/sponsors/plexteq.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/sponsors/skysoft.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/sponsors/skysoft.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/sponsors/steelkiwi.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/sponsors/steelkiwi.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/img/sponsors/steelkiwi.svg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/img/sponsors/steelkiwi.svg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/js/default.js" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/js/default.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/js/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/js/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/IT-Revolution/js/jquery.waypoints.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/sites/itRevolution/js/jquery.waypoints.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/img/BEST_Vinnytsia.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/img/BEST_Vinnytsia.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/img/bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/img/bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/img/bg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/img/bg1.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/img/far.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/img/far.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/img/ico.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/img/ico.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/img/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/img/logo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/img/mo.png" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/img/mo.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/img/partner1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/img/partner1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/img/partner2.1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/img/partner2.1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sites/ebecvinnytsia.dx.am/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/sites/ebec/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/style/style.scss" beforeDir="false" afterPath="$PROJECT_DIR$/style/style.scss" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,49 +107,10 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="header" />
     <option name="LAST_COMMIT_MESSAGE" value="header" />
-  </component>
-  <component name="WindowStateProjectService">
-    <state x="1065" y="124" key="CommitChangelistDialog2" timestamp="1583622571145">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="1065" y="124" key="CommitChangelistDialog2/0.0.1920.1050@0.0.1920.1050" timestamp="1583622571145" />
-    <state x="1224" y="271" key="FileChooserDialogImpl" timestamp="1585768219701">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="1224" y="271" key="FileChooserDialogImpl/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585768219701" />
-    <state x="1224" y="271" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1584100817015" />
-    <state x="1313" y="423" key="Github.ShareDialog" timestamp="1583450062318">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="1313" y="423" key="Github.ShareDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1583450062318" />
-    <state x="461" y="168" key="SettingsEditor" timestamp="1585768176957">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="461" y="168" key="SettingsEditor/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1585768176957" />
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2" timestamp="1583622578729">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="552" y="259" key="Vcs.Push.Dialog.v2/0.0.1920.1050@0.0.1920.1050" timestamp="1583622578729" />
-    <state x="1929" y="157" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1591602857654">
-      <screen x="1920" y="0" width="1920" height="1050" />
-    </state>
-    <state x="1929" y="157" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1591602857654" />
-    <state x="600" y="141" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1590078507751">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="600" y="141" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1590078507751" />
-    <state x="616" y="243" key="run.anything.popup" timestamp="1584910727729">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="616" y="243" key="run.anything.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584910727729" />
-    <state x="1055" y="544" width="672" height="678" key="search.everywhere.popup" timestamp="1584547631130">
-      <screen x="0" y="0" width="1920" height="1050" />
-    </state>
-    <state x="1055" y="544" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050/1920.0.1920.1050@0.0.1920.1050" timestamp="1584547631130" />
-    <state x="1055" y="544" width="672" height="678" key="search.everywhere.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1583447184973" />
   </component>
 </project>
