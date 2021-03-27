@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: ukr.html
+
+
